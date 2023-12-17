@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Actividades", 
+        "href": "/actividades"
+    },
+    {
+        "nombre": "Colegios", 
+        "href": "/colegios"
+    },
+    {
+        "nombre": "Mapa", 
+        "href": "/#mapa"
+    },
+    {
+        "nombre": "Contacto", 
+        "href": "/#contacto"
+    }
+]
