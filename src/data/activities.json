@@ -1,0 +1,154 @@
+[
+    {
+      "imageSrc": [
+        "/activities/sierraVentana/sierraVentana_1.jpeg",
+        "/activities/sierraVentana/sierraVentana_2.jpg",
+        "/activities/sierraVentana/sierraVentana_3.jpg",
+        "/activities/sierraVentana/sierraVentana_4.jpg",
+        "/activities/sierraVentana/sierraVentana_5.jpeg",
+        "/activities/sierraVentana/sierraVentana_6.jpeg",
+        "/activities/sierraVentana/sierraVentana_7.jpeg",
+        "/activities/sierraVentana/sierraVentana_8.jpeg",
+        "/activities/sierraVentana/sierraVentana_9.jpeg",
+        "/activities/sierraVentana/sierraVentana_10.jpeg",
+        "/activities/sierraVentana/sierraVentana_11.jpeg",
+        "/activities/sierraVentana/sierraVentana_12.jpeg",
+        "/activities/sierraVentana/sierraVentana_13.jpeg",
+        "/activities/sierraVentana/sierraVentana_14.jpeg",
+        "/activities/sierraVentana/sierraVentana_15.jpeg"
+      ],
+      "name": "Experiencia Sierra de la Ventana",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Villa Arcadia" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 días" }
+      ]
+    },
+    {
+      "imageSrc": [
+        "/activities/parapente/parapente_1.jpg",
+        "/activities/parapente/parapente_2.jpg",
+        "/activities/parapente/parapente_3.jpg",
+        "/activities/parapente/parapente_4.jpg",
+        "/activities/parapente/parapente_5.jpg",
+        "/activities/parapente/parapente_6.jpg",
+        "/activities/parapente/parapente_7.jpg",
+        "/activities/parapente/parapente_8.jpg"
+      ],
+      "name": "Vuelo en parapente",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "Todos los Días (Consultar)" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Sierra de Los Difuntos" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Parapente (Turismo Aventura)" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "3 hs" }
+      ]
+    },
+    {
+      "imageSrc": [
+        "/activities/expPlaya/expPlaya_1.jpg",
+        "/activities/expPlaya/expPlaya_2.jpg",
+        "/activities/expPlaya/expPlaya_3.jpg",
+        "/activities/expPlaya/expPlaya_4.jpg",
+        "/activities/expPlaya/expPlaya_5.jpg",
+        "/activities/expPlaya/expPlaya_6.jpg",
+        "/activities/expPlaya/expPlaya_7.jpg",
+        "/activities/expPlaya/expPlaya_8.jpg",
+        "/activities/expPlaya/expPlaya_9.jpg"
+      ],
+      "name": "Experiencia Playa",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Miramar" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "8 hs" }
+      ]
+    },
+    {
+      "imageSrc": [
+        "/activities/villaSF/villaSF_1.jpg",
+        "/activities/villaSF/villaSF_2.jpg",
+        "/activities/villaSF/villaSF_3.jpg",
+        "/activities/villaSF/villaSF_4.jpg",
+        "/activities/villaSF/villaSF_5.jpg",
+        "/activities/villaSF/villaSF_6.jpg",
+        "/activities/villaSF/villaSF_7.jpg",
+        "/activities/villaSF/villaSF_8.jpg",
+        "/activities/villaSF/villaSF_9.jpg",
+        "/activities/villaSF/villaSF_10.jpg"
+      ],
+      "name": "Villa San Francisco",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Villa San Francisco" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 hs" }
+      ]
+    },
+    {
+      "imageSrc": [
+        "/activities/expLaguna/expLaguna_1.jpg",
+        "/activities/expLaguna/expLaguna_2.jpg",
+        "/activities/expLaguna/expLaguna_3.jpg",
+        "/activities/expLaguna/expLaguna_4.jpg",
+        "/activities/expLaguna/expLaguna_5.jpg",
+        "/activities/expLaguna/expLaguna_6.jpg",
+        "/activities/expLaguna/expLaguna_7.jpg",
+        "/activities/expLaguna/expLaguna_8.jpg",
+        "/activities/expLaguna/expLaguna_9.jpg"
+      ],
+      "name": "Experiencia Laguna",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Laguna de Mar Chiquita" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "8 hs" }
+      ]
+    },
+    {
+      "imageSrc": [
+        "/activities/expSierras/expSierras_1.jpg",
+        "/activities/expSierras/expSierras_2.jpg",
+        "/activities/expSierras/expSierras_3.jpg",
+        "/activities/expSierras/expSierras_4.jpg",
+        "/activities/expSierras/expSierras_5.jpg",
+        "/activities/expSierras/expSierras_6.jpg",
+        "/activities/expSierras/expSierras_7.jpg",
+        "/activities/expSierras/expSierras_8.jpg",
+        "/activities/expSierras/expSierras_9.jpg",
+        "/activities/expSierras/expSierras_10.jpg",
+        "/activities/expSierras/expSierras_11.jpg",
+        "/activities/expSierras/expSierras_12.jpg"
+      ],
+      "name": "Experiencia Sierras",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Rincón Grande" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 hs" }
+      ]
+    },
+    {
+      "imageSrc": [
+        "/activities/rinconGrande/rinconGrande_1.jpg",
+        "/activities/rinconGrande/rinconGrande_2.jpg",
+        "/activities/rinconGrande/rinconGrande_3.jpg",
+        "/activities/rinconGrande/rinconGrande_4.jpg"
+      ],
+      "name": "Rincon Grande",
+      "price": "$ A cotizar - Consultanos!",
+      "details": [
+        { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "Sábado, Domingo y Feriados" },
+        { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Rincón Grande" },
+        { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Turismo Aventura" },
+        { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "10 hs" }
+      ]
+    }
+  ]
+  
