@@ -5,7 +5,7 @@
 const MapContainer = ({locations}) => {
 
     const mapStyles = {
-        height: '80vh',
+        height: '75vh',
         width: '90%',
     };
 

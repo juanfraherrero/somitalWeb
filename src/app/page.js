@@ -10,7 +10,7 @@ import MapContainer from '../components/MapContainer';
 
 import Footer from '../components/Footer';
 
-export default function Home() {
+export default function Home() {  
   return (
     <>
     <Navbar path={"/"}></Navbar>
