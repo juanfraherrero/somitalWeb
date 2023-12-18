@@ -11,8 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={quicksand.className}>
-        <Navbar></Navbar> 
+      <body className={quicksand.className}> 
         {children}
       </body>
     </html>
