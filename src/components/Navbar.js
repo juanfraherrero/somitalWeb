@@ -35,7 +35,7 @@ const Navbar = ({path}) => {
 
         <div className={`${quicksand.className} hidden sm:flex text-color-primary font-bold text-2xl sm:items-center space-x-4`}>
           {data.map((item, index) => (
-            <Link key={index} href={item.href}>
+            <Link key={index} href={(item.toId? path : "") + item.href}>
               <div className="nav-item border-transparent hover:border-b-2 hover:border-color-primary transition duration-300">
                 {item.nombre}
               </div>
@@ -46,7 +46,7 @@ const Navbar = ({path}) => {
       
       {/* MENU DESPLEGABLE */}
 
-      <div className={`absolute top-0 ${isMenuOpen? "right-3/5" : "right-full" } h-screen w-2/5 bg-color-secondary bg-opacity-95 z-50 transition duration-3000`}>
+      <div className={`top-0 ${isMenuOpen? "absolute" : "hidden" } h-screen w-2/5 bg-color-secondary bg-opacity-95 z-50 animate-open-menu `}>
 
         <div className='m-8'>
           <button className="" onClick={openBurgerList}>
@@ -54,7 +54,7 @@ const Navbar = ({path}) => {
           </button>
         </div>
         {data.map((item, index) => (
-            <Link key={index} href={(item.toId && path) + item.href}>
+            <Link key={index} href={(item.toId? path : "") + item.href} onClick={() => { setTimeout(openBurgerList(), 300)}}>
               <div className="nav-item mx-auto text-center py-4 font-bold border-transparent hover:border-b-2 hover:border-color-primary hover:shadow-sm transition duration-300">
                 {item.nombre}
               </div>

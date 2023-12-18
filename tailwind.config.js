@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        'open-menu': {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
+      animation: {
+        'open-menu': 'open-menu 0.3s ease-out',
+      },  
       colors: {
         'regal-blue': '#243c5a',
         'color-primary': '#781F1C',

@@ -1,7 +1,6 @@
-'use client'
+
 
 import Navbar from '../../components/Navbar';
-import { useState } from 'react';
 import activities from '../../data/activities.json';
 
 import ActivitiesSelector from '../../components/ActivitiesSelector'; 
@@ -10,11 +9,6 @@ import ActivityDescriptor from '../../components/ActivityDescriptor';
 import Footer from '../../components/Footer';
 
 export default function Home() {
-  const [selectedActivity, setSelectedActivity] = useState(activities[0]);
-  
-  const handleSelectedActivity = (activity) => {
-    setSelectedActivity(activity);
-  }
 
   return (
     <>
@@ -23,8 +17,8 @@ export default function Home() {
       {/* SECCIÓN DEL DESPLIEGUEDE ACTIVIDAD CON DESCRIPCIÓON */}
 
       <section className="max-w-7xl mx-auto flex flex-row flex-wrap justify-betwwn mb-16 ">
-        <ActivitiesSelector activities={activities.filter((activity)=>activity.type.includes('personal'))} handleSelectedActivity={handleSelectedActivity} />
-        <ActivityDescriptor activity={selectedActivity} />
+        <ActivitiesSelector activities={activities.filter((activity)=>activity.type.includes('personal'))} />
+        <ActivityDescriptor />
       </section>
 
       {/* SECCIÓN DEL FOOTER */}
