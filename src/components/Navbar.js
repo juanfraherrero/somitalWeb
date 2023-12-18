@@ -8,7 +8,7 @@ import { quicksand } from '../app/fonts'
 
 import data from '../data/list-navbar';
 
-const Navbar = () => {
+const Navbar = ({path}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
@@ -54,7 +54,7 @@ const Navbar = () => {
           </button>
         </div>
         {data.map((item, index) => (
-            <Link key={index} href={item.href}>
+            <Link key={index} href={(item.toId && path) + item.href}>
               <div className="nav-item mx-auto text-center py-4 font-bold border-transparent hover:border-b-2 hover:border-color-primary hover:shadow-sm transition duration-300">
                 {item.nombre}
               </div>

@@ -1,8 +1,9 @@
 
 import Image from 'next/image'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
 
 import data from '../data/activities.json';
+import locations from '../data/locationsHome.json';
 import CarouselActivities from '../components/CarouselActivities'; 
 
 import MapContainer from '../components/MapContainer';
@@ -11,6 +12,8 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
+    <>
+    <Navbar path={"/"}></Navbar>
     <main className="">
       {/* SECIÓN DE LA IMAGEN CON LE LOGO ARRIBA */}
       <section className="max-w-7xl mx-auto flex justify-center items-center relative mb-16">
@@ -24,7 +27,7 @@ export default function Home() {
           priority={true}
           width={1280}
           height={720}
-        />
+          />
         {/* <div className="flex justify-center items-center h-full absolute top-0 left-0 w-full">
           <Image src="/ruta-de-tu-logo.svg" alt="Logo" width={100} height={100} />
         </div> */}
@@ -41,7 +44,7 @@ export default function Home() {
 
       {/* SECCIÓN DE MAPA CON POSICIONES */}
       <section id='mapa' className="max-w-7xl mx-auto flex flex-wrap justify-center mb-16">
-        <MapContainer/>
+        <MapContainer locations={locations}/>
       </section>
         
       
@@ -49,5 +52,6 @@ export default function Home() {
       <Footer/>
         
     </main>
+    </>
   )
 }

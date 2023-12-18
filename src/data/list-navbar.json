@@ -1,18 +1,22 @@
 [
     {
         "nombre": "Actividades", 
-        "href": "/actividades"
+        "href": "/actividades",
+        "toId" : false
     },
     {
         "nombre": "Colegios", 
-        "href": "/colegios"
+        "href": "/colegios",
+        "toId" : false
     },
     {
         "nombre": "Mapa", 
-        "href": "/#mapa"
+        "href": "/#mapa",
+        "toId" : false
     },
     {
         "nombre": "Contacto", 
-        "href": "/#contacto"
+        "href": "#contacto",
+        "toId" : true
     }
 ]
