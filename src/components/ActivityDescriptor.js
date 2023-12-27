@@ -52,9 +52,9 @@ const ActivityDescriptor = () => {
       "description": selectedActivity.details[1].description
   }]
   return (
-      <div className='max-w-[60%]'>
+      <>
           <h1 className="text-4xl font-bold my-4 mb-8 text-center">{selectedActivity.name}</h1>
-          <Slider {...settings} className='w-[100%]  h-[200px] sm:h-[350px] lg:h-[450px]'>
+          <Slider {...settings} className='w-[100%]  h-[50vw] sm:h-[35vw] tope:h-[29rem] -z-index-10'>
               {selectedActivity.imageSrc.map((image, index) => (
                   <div key={index}>
                       <Image src={image} alt={`actividad-${index + 1}`} width={800} height={500} />
@@ -81,7 +81,7 @@ const ActivityDescriptor = () => {
             <MapContainer locations={locations}/>
           </div>
             
-      </div>              
+      </>           
   );
 }
 

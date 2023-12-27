@@ -11,6 +11,12 @@
           
         },
         {
+          "type": "mail",
+          "icon":"/svgs/mail-icon.svg",
+          "value": "aventurassomital@gmail.com",
+          "link": "mailto:correo@example.com?subject=Consulta de ... &body=Escribe aquí tu consulta"
+        },
+        {
           "type": "telefono",
           "icon":"/svgs/phone-icon.svg",
           "value": "+549 223 551-7063",

@@ -32,7 +32,8 @@ module.exports = {
         'color-black': '#000000',
       },
       screens: {
-        'xmd': '860px'
+        'xmd': '860px',
+        "tope": "80rem",
       }
   },
     plugins: [],

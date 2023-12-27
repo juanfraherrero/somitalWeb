@@ -2,7 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { EstadoGlobalContext } from '../context/EstadoGlobal';
 
 import { quicksand } from '../app/fonts'
 
@@ -10,7 +11,7 @@ import data from '../data/list-navbar';
 
 const Navbar = ({path}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const { setDefaultActivity } = useContext(EstadoGlobalContext);
 
   const openBurgerList = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -35,7 +36,7 @@ const Navbar = ({path}) => {
 
         <div className={`${quicksand.className} hidden sm:flex text-color-primary font-bold text-2xl sm:items-center space-x-4`}>
           {data.map((item, index) => (
-            <Link key={index} href={(item.toId? path : "") + item.href}>
+            <Link key={index} href={(item.toId? path : "") + item.href} onClick={setDefaultActivity}>
               <div className="nav-item border-transparent hover:border-b-2 hover:border-color-primary transition duration-300">
                 {item.nombre}
               </div>
@@ -54,7 +55,7 @@ const Navbar = ({path}) => {
           </button>
         </div>
         {data.map((item, index) => (
-            <Link key={index} href={(item.toId? path : "") + item.href} onClick={() => { setTimeout(openBurgerList(), 300)}}>
+            <Link key={index} href={(item.toId? path : "") + item.href} onClick={() => {setDefaultActivity(); setTimeout(openBurgerList(), 300)}}>
               <div className="nav-item mx-auto text-center py-4 font-bold border-transparent hover:border-b-2 hover:border-color-primary hover:shadow-sm transition duration-300">
                 {item.nombre}
               </div>
