@@ -11,7 +11,7 @@ const CardForSelection = ({ data }) => {
   let { selectedActivity, setSelectedActivity } = useContext(EstadoGlobalContext);
   
   return (
-    <div className="m-2 rounded overflow-hidden shadow-lg w-[75%] lg:w-[30%] max-w-[800px] max-h-[600px] bg-white "  >
+    <div className="m-2 rounded overflow-hidden shadow-lg w-[75%] lg:w-[65%] max-w-[800px] max-h-[600px] bg-white "  >
       <div className='aspect-[16/9] w-full' >
         <Image
             src={imageSrc[0]} // Reemplaza con tu ruta de imagen
