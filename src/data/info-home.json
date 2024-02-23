@@ -1,6 +1,9 @@
 {
-    "quienesSomos": "¿Quienes Somos?",
-    "sobreNosotros": "Sobre Nosotros",
-    "contactanos": "Contactanos",
-    "content": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sitamet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet. amet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet."
+  "quienesSomos": "¿Quienes Somos?",
+  "sobreNosotros": "Sobre Nosotros",
+  "contactanos": "Contactanos",
+  "content": [
+    "En Somital Aventuras, te llevamos a vivir experiencias únicas en paisajes naturales. Con un enfoque en seguridad, conocimiento experto y programas personalizados, creamos aventuras memorables adaptadas a ti.",
+    "Conéctate con la naturaleza y otras culturas de manera transformadora. Contrátanos para descubrir momentos inolvidables donde la aventura y la calidad se encuentran. ¡Contáctanos hoy y reserva tu aventura!"
+  ]
 }
