@@ -12,6 +12,7 @@ export const metadata = {
   keywords:
     "turismo aventura, Mar del Plata, trekking, senderismo, caminata, mountain bike, ciclismo, bici, bicileta, actividades al aire libre, excursiones, turismo costero, turismo sierras",
   author: "Somital Aventuras",
+  "google-site-verification": "fu978mignKAkmu0uVbqpawI7qVdGBpo3eWQDjQxhW_U",
 };
 
 export default function RootLayout({ children }) {
@@ -19,10 +20,6 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <meta
-          name="google-site-verification"
-          content="fu978mignKAkmu0uVbqpawI7qVdGBpo3eWQDjQxhW_U"
-        />
       </Head>
       <body className={quicksand.className}>
         <EstadoGlobalProvider>{children}</EstadoGlobalProvider>
