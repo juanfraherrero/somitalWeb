@@ -36,11 +36,11 @@ const ContactForm = () => {
     // Construir el mensaje a enviar por WhatsApp
     const wtpMessage = `Hola buenas soy ${firstName} ${lastName}:\n ${content}`;
 
-    // // Redireccionar al usuario a WhatsApp con el mensaje predefinido
-    // window.open(
-    //   `https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_WTP_NUMBER}&text=${wtpMessage}`,
-    //   "_blank"
-    // );
+    // Redireccionar al usuario a WhatsApp con el mensaje predefinido
+    window.open(
+      `https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_WTP_NUMBER}&text=${wtpMessage}`,
+      "_blank"
+    );
 
     // Limpiar los valores después del envío
     setFormData({
