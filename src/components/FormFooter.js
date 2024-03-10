@@ -38,7 +38,7 @@ const ContactForm = () => {
 
     // Redireccionar al usuario a WhatsApp con el mensaje predefinido
     window.open(
-      `https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_WTP_NUMBER}&text=${wtpMessage}`,
+      `https://wa.me/${process.env.NEXT_PUBLIC_WTP_NUMBER}?text=${wtpMessage}`,
       "_blank"
     );
 
