@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-script-component-in-head */
 import "./globals.css";
 import { quicksand } from "./fonts";
 
 import { EstadoGlobalProvider } from "../context/EstadoGlobal";
 
 import Head from "next/head";
+import Script from "next/script";
 
 export const metadata = {
   title: "Somital Aventuras",
@@ -20,22 +22,24 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        {/* Google Tag Manager */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}`}
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      </Head>
+      {/* Google Tag Manager */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}`}
+      ></Script>
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}');
             `,
-          }}
-        />
-      </Head>
+        }}
+      />
       <body className={quicksand.className}>
         <EstadoGlobalProvider>{children}</EstadoGlobalProvider>
       </body>
