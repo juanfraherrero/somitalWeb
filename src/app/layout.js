@@ -20,6 +20,21 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
+        {/* Google Tag Manager */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}');
+            `,
+          }}
+        />
       </Head>
       <body className={quicksand.className}>
         <EstadoGlobalProvider>{children}</EstadoGlobalProvider>
