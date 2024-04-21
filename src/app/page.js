@@ -32,6 +32,8 @@ export default function Home() {
           {/* <div className="flex justify-center items-center h-full absolute top-0 left-0 w-full">
           <Image src="/ruta-de-tu-logo.svg" alt="Logo" width={100} height={100} />
         </div> */}
+          {/* Título oculto para SEO y accesibilidad */}
+          <h1 className="sr-only">Somital Aventuras</h1>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <Image src="/logo.svg" alt="Logo" width={400} height={400} />
           </div>
@@ -67,17 +69,19 @@ export default function Home() {
               </div>
               <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
                 <div className="pl-4 mb-6 border-l-4 border-color-primary ">
-                  <span className="text-sm text-gray-600 uppercase dark:text-gray-400">
-                    {infoHome.quienesSomos}
-                  </span>
-                  <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
+                  <h2 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
                     {infoHome.sobreNosotros}
-                  </h1>
+                  </h2>
+                  <h3 className="text-sm text-gray-600 uppercase dark:text-gray-400">
+                    {infoHome.quienesSomos}
+                  </h3>
                 </div>
                 {infoHome.content.map((item, index) => (
                   <p
                     key={index}
-                    className="mb-6 text-base leading-7 text-gray-800"
+                    className={`text-lg text-gray-600 dark:text-gray-400 ${
+                      index === infoHome.content.length - 1 ? "mb-7 " : "mb-3"
+                    }`}
                   >
                     {item}
                   </p>
@@ -96,6 +100,33 @@ export default function Home() {
         {/* SECCIÓN DEL CARROUSEL DE CARDS */}
 
         <section className="max-w-7xl mx-auto flex flex-wrap justify-center mb-16">
+          <div className="w-full px-6 mb-10  lg:mb-0 ">
+            <h2 className=" text-center mt-7 mb-5 text-2xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
+              Actividades en Mar del Plata y alrededores
+            </h2>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-lg text-gray-600 dark:text-gray-400 mb-3">
+                Descubre la emoción del{" "}
+                <strong>trekking en Mar del Plata</strong>, donde ofrecemos
+                senderos enfocados para principiantes y para expertos. Nuestros
+                senderos de trekking son perfectos para disfrutar de la belleza
+                natural de la sierra.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-400 mb-3">
+                Experimenta la aventura del <strong>parapente</strong> en las
+                alturas de la sierra Los Difuntos, despegando desde los puntos
+                más altos para una experiencia única en un entorno de montaña.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
+                Ofrecemos emocionantes actividades como{" "}
+                <strong>tirolesa</strong> y <strong>palestra</strong>, una
+                actividad favorita para los niños, siendo una opción popular
+                para excursiones con colegios. Estas actividades están diseñadas
+                para maximizar el contacto con la naturaleza y ofrecer momentos
+                inolvidables.
+              </p>
+            </div>
+          </div>
           <CarouselActivities activities={data} />
         </section>
 
