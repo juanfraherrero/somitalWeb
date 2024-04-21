@@ -1,19 +1,35 @@
 [
   {
     "imageSrc": [
-      "/activities/rinconGrande/rinconGrande_1.jpg",
-      "/activities/rinconGrande/rinconGrande_2.jpg",
-      "/activities/rinconGrande/rinconGrande_3.jpg"
+      "/activities/rinconGrande/medium/rinconGrande_1.webp",
+      "/activities/rinconGrande/medium/rinconGrande_2.webp",
+      "/activities/rinconGrande/medium/rinconGrande_3.webp"
     ],
+    "imageThumbnail": "/activities/rinconGrande/small/rinconGrande_1.webp",
     "name": "Rincon Grande",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "Sábado, Domingo y Feriados" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Rincón Grande", "lat": -37.88220165423163, "lng": -57.868810008932755, "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)." },
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Turismo Aventura" },
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "Sábado, Domingo y Feriados"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Rincón Grande",
+        "lat": -37.88220165423163,
+        "lng": -57.868810008932755,
+        "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."
+      },
+      {
+        "label": "Tag",
+        "icon": "/svgs/tag-icon.svg",
+        "value": "Turismo Aventura"
+      },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "10 hs" }
     ],
-    "description":[
+    "description": [
       "¡Bienvenidos a la estancia Rincón Grande! Si estás buscando aventura, ¡has llegado al lugar correcto! Tenemos una amplia variedad de actividades para que disfrutes de la naturaleza y te diviertas al máximo. Aquí te presentamos todo lo que tenemos para ofrecerte:",
       "*Senderos autoguiados*: Contamos con 4 senderos autoguiados para que puedas explorar la zona a tu propio ritmo. ¡No te pierdas de las vistas panorámicas y la belleza natural que nos rodea!",
       "*Circuito de MTB*: Si eres un amante de la bicicleta de montaña, ¡este circuito es para ti! Disfruta de la emoción y la adrenalina mientras recorres nuestros senderos.",
@@ -22,29 +38,38 @@
       "*Fogones con mesas*: ¿Qué mejor manera de terminar el día que con una cena al aire libre? Contamos con fogones y mesas para que puedas disfrutar de una cena en familia o con amigos.",
       "¡Ven a la estancia Rincón Grande y vive la aventura al máximo!"
     ],
-    "type": [
-      "institucion",
-      "personal"
-    ]
+    "type": ["institucion", "personal"]
   },
   {
     "imageSrc": [
-      "/activities/villaSF/villaSF_1.jpg",
-      "/activities/villaSF/villaSF_2.jpg",
-      "/activities/villaSF/villaSF_3.jpg",
-      "/activities/villaSF/villaSF_4.jpg",
-      "/activities/villaSF/villaSF_5.jpg",
-      "/activities/villaSF/villaSF_6.jpg",
-      "/activities/villaSF/villaSF_7.jpg",
-      "/activities/villaSF/villaSF_8.jpg",
-      "/activities/villaSF/villaSF_9.jpg",
-      "/activities/villaSF/villaSF_10.jpg"
+      "/activities/villaSF/medium/villaSF_1.webp",
+      "/activities/villaSF/medium/villaSF_2.webp",
+      "/activities/villaSF/medium/villaSF_3.webp",
+      "/activities/villaSF/medium/villaSF_4.webp",
+      "/activities/villaSF/medium/villaSF_5.webp",
+      "/activities/villaSF/medium/villaSF_6.webp",
+      "/activities/villaSF/medium/villaSF_7.webp",
+      "/activities/villaSF/medium/villaSF_8.webp",
+      "/activities/villaSF/medium/villaSF_9.webp",
+      "/activities/villaSF/medium/villaSF_10.webp"
     ],
+    "imageThumbnail": "/activities/villaSF/small/villaSF_1.webp",
     "name": "Villa San Francisco",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Villa San Francisco", "lat": -37.920700168424304, "lng": -57.557902429910456, "description": "Tirolesa, escalada en palestra, juegos recreativos." },
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "A coordinar"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Villa San Francisco",
+        "lat": -37.920700168424304,
+        "lng": -57.557902429910456,
+        "description": "Tirolesa, escalada en palestra, juegos recreativos."
+      },
       { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 hs" }
     ],
@@ -52,34 +77,43 @@
       "Villa San Francisco es el lugar perfecto para que los estudiantes de jardín hasta secundaria experimenten aventuras emocionantes. Nuestras dos palestras y dos tirolesas son ideales para que los estudiantes se diviertan mientras desarrollan habilidades físicas y mentales. Nuestro personal experto y capacitado guiará a los estudiantes a través de cada actividad, asegurando su seguridad mientras se divierten.",
       "No pierdas la oportunidad de desafiarte a ti mismo y crear recuerdos inolvidables."
     ],
-    "type": [
-      "institucion",
-      "personal"
-    ]
-  },  
+    "type": ["institucion", "personal"]
+  },
   {
     "imageSrc": [
-      "/activities/sierraVentana/sierraVentana_1.jpeg",
-      "/activities/sierraVentana/sierraVentana_2.jpg",
-      "/activities/sierraVentana/sierraVentana_3.jpg",
-      "/activities/sierraVentana/sierraVentana_4.jpg",
-      "/activities/sierraVentana/sierraVentana_5.jpeg",
-      "/activities/sierraVentana/sierraVentana_6.jpeg",
-      "/activities/sierraVentana/sierraVentana_7.jpeg",
-      "/activities/sierraVentana/sierraVentana_8.jpeg",
-      "/activities/sierraVentana/sierraVentana_9.jpeg",
-      "/activities/sierraVentana/sierraVentana_10.jpeg",
-      "/activities/sierraVentana/sierraVentana_11.jpeg",
-      "/activities/sierraVentana/sierraVentana_12.jpeg",
-      "/activities/sierraVentana/sierraVentana_13.jpeg",
-      "/activities/sierraVentana/sierraVentana_14.jpeg",
-      "/activities/sierraVentana/sierraVentana_15.jpeg"
+      "/activities/sierraVentana/medium/sierraVentana_1.webp",
+      "/activities/sierraVentana/medium/sierraVentana_2.webp",
+      "/activities/sierraVentana/medium/sierraVentana_3.webp",
+      "/activities/sierraVentana/medium/sierraVentana_4.webp",
+      "/activities/sierraVentana/medium/sierraVentana_5.webp",
+      "/activities/sierraVentana/medium/sierraVentana_6.webp",
+      "/activities/sierraVentana/medium/sierraVentana_7.webp",
+      "/activities/sierraVentana/medium/sierraVentana_8.webp",
+      "/activities/sierraVentana/medium/sierraVentana_9.webp",
+      "/activities/sierraVentana/medium/sierraVentana_10.webp",
+      "/activities/sierraVentana/medium/sierraVentana_11.webp",
+      "/activities/sierraVentana/medium/sierraVentana_12.webp",
+      "/activities/sierraVentana/medium/sierraVentana_13.webp",
+      "/activities/sierraVentana/medium/sierraVentana_14.webp",
+      "/activities/sierraVentana/medium/sierraVentana_15.webp"
     ],
+    "imageThumbnail": "/activities/sierraVentana/small/sierraVentana_1.webp",
     "name": "Experiencia Sierra de la Ventana",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Villa Arcadia", "lat": -38.13402951173797, "lng": -61.78359283640445, "description": "Agregar palabras claves de actividades en YMPCAPOLIS"},
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "A coordinar"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Villa Arcadia",
+        "lat": -38.13402951173797,
+        "lng": -61.78359283640445,
+        "description": "Agregar palabras claves de actividades en YMPCAPOLIS"
+      },
       { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 días" }
     ],
@@ -89,115 +123,159 @@
       "Nuestro objetivo principal es llevar la educación a un nivel superior, combinando las emocionantes actividades de aventura con una educación significativa y concreta. Imagina cuatro días y tres noches de inmersión total, alojándote en el increíble YMCAPOLIS, donde la diversión nunca se detiene. Además, disfrutarás de deliciosas comidas con pensión completa para mantenerte lleno de energía.",
       "Este viaje no es solo una experiencia, es una oportunidad de crecimiento personal y académico. ¡No dejes que esta aventura pase de largo! ¡Únete a nosotros y descubre un nuevo mundo en Sierra de la Ventana! ¡El conocimiento y la diversión te esperan! ¡Inscríbete hoy y prepárate para la aventura de tu vida!"
     ],
-    "type": [
-      "institucion"
-    ]
+    "type": ["institucion"]
   },
   {
     "imageSrc": [
-      "/activities/parapente/parapente_1.jpg",
-      "/activities/parapente/parapente_2.jpg",
-      "/activities/parapente/parapente_3.jpg",
-      "/activities/parapente/parapente_4.jpg",
-      "/activities/parapente/parapente_5.jpg",
-      "/activities/parapente/parapente_6.jpg",
-      "/activities/parapente/parapente_7.jpg",
-      "/activities/parapente/parapente_8.jpg"
+      "/activities/parapente/medium/parapente_1.webp",
+      "/activities/parapente/medium/parapente_2.webp",
+      "/activities/parapente/medium/parapente_3.webp",
+      "/activities/parapente/medium/parapente_4.webp",
+      "/activities/parapente/medium/parapente_5.webp",
+      "/activities/parapente/medium/parapente_6.webp",
+      "/activities/parapente/medium/parapente_7.webp",
+      "/activities/parapente/medium/parapente_8.webp"
     ],
+    "imageThumbnail": "/activities/parapente/small/parapente_1.webp",
     "name": "Vuelo en parapente",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "Todos los Días (Consultar)" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Sierra de Los Difuntos", "lat": -38.13402951173797, "lng": -61.783936159129176, "description": "Agregar palabras claves de actividades en SIERRA DIFUNTOS"},
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Parapente (Turismo Aventura)" },
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "Todos los Días (Consultar)"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Sierra de Los Difuntos",
+        "lat": -38.13402951173797,
+        "lng": -61.783936159129176,
+        "description": "Agregar palabras claves de actividades en SIERRA DIFUNTOS"
+      },
+      {
+        "label": "Tag",
+        "icon": "/svgs/tag-icon.svg",
+        "value": "Parapente (Turismo Aventura)"
+      },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "3 hs" }
     ],
     "description": [
       "¿Estás buscando una emocionante aventura en Mar del Plata? ¡No busques más que nuestros vuelos diarios en parapente sobre los acantilados y sierras de la zona! Nuestros vuelos tienen una duración aproximada de 20-30 minutos y no requieren experiencia previa ni acondicionamiento físico. Si sobrevolamos las sierras, incluso combinamos la experiencia con una caminata de media hora. ¿Y la mejor parte? Ofrecemos fotos y videos gratis con una cámara GoPro.",
       "Si buscas un regalo único, también ofrecemos vales sin fecha de caducidad. Con más de 20 años de experiencia, contamos con licencia de biplano y seguros para garantizar tu seguridad. ¡No te pierdas esta experiencia inolvidable!"
     ],
-    "type": [
-      "personal"
-    ]
+    "type": ["personal"]
   },
   {
     "imageSrc": [
-      "/activities/expPlaya/expPlaya_1.jpg",
-      "/activities/expPlaya/expPlaya_2.jpg",
-      "/activities/expPlaya/expPlaya_3.jpg",
-      "/activities/expPlaya/expPlaya_4.jpg",
-      "/activities/expPlaya/expPlaya_5.jpg",
-      "/activities/expPlaya/expPlaya_6.jpg",
-      "/activities/expPlaya/expPlaya_7.jpg",
-      "/activities/expPlaya/expPlaya_8.jpg",
-      "/activities/expPlaya/expPlaya_9.jpg"
+      "/activities/expPlaya/medium/expPlaya_1.webp",
+      "/activities/expPlaya/medium/expPlaya_2.webp",
+      "/activities/expPlaya/medium/expPlaya_3.webp",
+      "/activities/expPlaya/medium/expPlaya_4.webp",
+      "/activities/expPlaya/medium/expPlaya_5.webp",
+      "/activities/expPlaya/medium/expPlaya_6.webp",
+      "/activities/expPlaya/medium/expPlaya_7.webp",
+      "/activities/expPlaya/medium/expPlaya_8.webp",
+      "/activities/expPlaya/medium/expPlaya_9.webp"
     ],
+    "imageThumbnail": "/activities/expPlaya/small/expPlaya_1.webp",
     "name": "Experiencia Playa",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Bosque Energetico", "lat": -38.29319704638621, "lng": -57.87391162953653, "description": "Trekking, orientación con brújula, primeros auxilios y sandboard" },
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "A coordinar"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Bosque Energetico",
+        "lat": -38.29319704638621,
+        "lng": -57.87391162953653,
+        "description": "Trekking, orientación con brújula, primeros auxilios y sandboard"
+      },
       { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "8 hs" }
     ],
     "description": [
       "El objetivo de esta experiencia es brindar prácticas pedagógicas donde la playa se convierta en un espacio integrado de aprendizaje. Las actividades tienen como objetivo promover el trabajo en equipo, actitudes positivas hacia los compromisos diarios, la comunicación, el liderazgo y la confianza entre pares. Los participantes también desarrollarán su respuesta a la presión y el cambio, así como su comprensión del entorno natural a través de la experiencia práctica. Las actividades incluyen trekking, orientación con brújula, primeros auxilios y sandboard. Estas actividades ayudarán a los participantes a comprender conceptos como liderazgo, trabajo en equipo, comunicación y compañerismo de una manera divertida y atractiva. La experiencia proporcionará un desafío que es una metáfora de la vida y dejará a los participantes con algo que necesitan. El objetivo final es ayudar a los participantes a comprender y valorar las posibilidades que ofrece el entorno natural para la realización de actividades recreativas y deportivas, fomentando al mismo tiempo la necesidad de conservarlo y protegerlo."
     ],
-    "type": [
-      "institucion"
-    ]
+    "type": ["institucion"]
   },
   {
     "imageSrc": [
-      "/activities/expLaguna/expLaguna_1.jpg",
-      "/activities/expLaguna/expLaguna_2.jpg",
-      "/activities/expLaguna/expLaguna_3.jpg",
-      "/activities/expLaguna/expLaguna_4.jpg",
-      "/activities/expLaguna/expLaguna_5.jpg",
-      "/activities/expLaguna/expLaguna_6.jpg",
-      "/activities/expLaguna/expLaguna_7.jpg",
-      "/activities/expLaguna/expLaguna_8.jpg",
-      "/activities/expLaguna/expLaguna_9.jpg"
+      "/activities/expLaguna/medium/expLaguna_1.webp",
+      "/activities/expLaguna/medium/expLaguna_2.webp",
+      "/activities/expLaguna/medium/expLaguna_3.webp",
+      "/activities/expLaguna/medium/expLaguna_4.webp",
+      "/activities/expLaguna/medium/expLaguna_5.webp",
+      "/activities/expLaguna/medium/expLaguna_6.webp",
+      "/activities/expLaguna/medium/expLaguna_7.webp",
+      "/activities/expLaguna/medium/expLaguna_8.webp",
+      "/activities/expLaguna/medium/expLaguna_9.webp"
     ],
+    "imageThumbnail": "/activities/expLaguna/small/expLaguna_1.webp",
     "name": "Experiencia Laguna",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Laguna de Mar Chiquita", "lat": -37.7369515298438, "lng": -57.421912012905146, "description": "Kayak, caminatas (Senderismo), sup."},
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "A coordinar"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Laguna de Mar Chiquita",
+        "lat": -37.7369515298438,
+        "lng": -57.421912012905146,
+        "description": "Kayak, caminatas (Senderismo), sup."
+      },
       { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "8 hs" }
     ],
-    "description":[
+    "description": [
       "La Laguna de Mar Chiquita es un lugar ideal para realizar actividades al aire libre y aprender de la naturaleza. En este ambiente único se pueden realizar diversas actividades, como caminatas, kayak, sup, avistamiento de aves, entre otras. Todas estas actividades pueden ser aprovechadas para lograr diversos objetivos y para disfrutar de la belleza natural de este lugar. ¡Anímate a vivir esta experiencia única y enriquecedora!"
     ],
-    "type": [
-      "institucion"
-    ]
+    "type": ["institucion"]
   },
   {
     "imageSrc": [
-      "/activities/expSierras/expSierras_1.jpg",
-      "/activities/expSierras/expSierras_2.jpg",
-      "/activities/expSierras/expSierras_3.jpg",
-      "/activities/expSierras/expSierras_4.jpg",
-      "/activities/expSierras/expSierras_5.jpg",
-      "/activities/expSierras/expSierras_6.jpg",
-      "/activities/expSierras/expSierras_7.jpg",
-      "/activities/expSierras/expSierras_8.jpg",
-      "/activities/expSierras/expSierras_9.jpg",
-      "/activities/expSierras/expSierras_10.jpg",
-      "/activities/expSierras/expSierras_11.jpg",
-      "/activities/expSierras/expSierras_12.jpg"
+      "/activities/expSierras/medium/expSierras_1.webp",
+      "/activities/expSierras/medium/expSierras_2.webp",
+      "/activities/expSierras/medium/expSierras_3.webp",
+      "/activities/expSierras/medium/expSierras_4.webp",
+      "/activities/expSierras/medium/expSierras_5.webp",
+      "/activities/expSierras/medium/expSierras_6.webp",
+      "/activities/expSierras/medium/expSierras_7.webp",
+      "/activities/expSierras/medium/expSierras_8.webp",
+      "/activities/expSierras/medium/expSierras_9.webp",
+      "/activities/expSierras/medium/expSierras_10.webp",
+      "/activities/expSierras/medium/expSierras_11.webp",
+      "/activities/expSierras/medium/expSierras_12.webp"
     ],
+    "imageThumbnail": "/activities/expSierras/small/expSierras_1.webp",
     "name": "Experiencia Sierras",
     "price": "$ A cotizar - Consultanos!",
     "details": [
-      { "label": "Date", "icon": "/svgs/calendar-icon.svg", "value": "A coordinar" },
-      { "label": "Location", "icon": "/svgs/location-icon.svg", "value": "Rincón Grande", "lat": -37.88220165423163, "lng": -57.868810008932755, "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."},
+      {
+        "label": "Date",
+        "icon": "/svgs/calendar-icon.svg",
+        "value": "A coordinar"
+      },
+      {
+        "label": "Location",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Rincón Grande",
+        "lat": -37.88220165423163,
+        "lng": -57.868810008932755,
+        "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."
+      },
       { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
       { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 hs" }
     ],
-    "description":[
+    "description": [
       "Recorrer un sendero en un medio natural nos proporciona una oportunidad única para emprender también, un camino interior, hacia nuestro crecimiento personal.",
       "Las actividades físicas en el medio natural tienen una profunda relación con la Supervivencia. Este debe ser el centro de interés de todos aquellos contenidos de bloques de actividades en la naturaleza.",
       "Para aprovechar este momento educativo se necesitan recursos y herramientas que favorezcan la implicación global de la persona y así poner en marcha el proceso de adquisición y afianzamiento de actitudes y valores.",
@@ -205,10 +283,6 @@
       "Se ofrecen actividades de aventura, juegos y actividades lúdicas que ayudan a comprender  de   mejor manera   conceptos tales como el liderazgo, el trabajo en equipo, la autosuperación, la comunicación y el compañerismo.",
       "“La experiencia propone un desafío, es una metáfora para la vida, deja algo que necesitas… agradécele su visita”"
     ],
-    "type": [
-      "institucion"
-    ]
+    "type": ["institucion"]
   }
-  
 ]
-  

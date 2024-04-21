@@ -1,0 +1,3 @@
+original 800x450
+medium 800x450
+small 400x225 (reduce 50%)
