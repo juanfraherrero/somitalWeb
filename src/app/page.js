@@ -11,6 +11,16 @@ import MapContainer from "../components/MapContainer";
 import Footer from "../components/Footer";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Somital Aventuras. Experiencias Únicas en la Naturaleza en Mar del Plata",
+  description:
+    "Viví experiencias inolvidables en paisajes naturales. Disfruta de trekking, parapente, tirolesa en Mar del Plata y sus alrededores.",
+  alternates: {
+    canonical: "https://www.somitalaventuras.com.ar",
+  },
+};
+
 export default function Home() {
   return (
     <>
