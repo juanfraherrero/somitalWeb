@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,6 +13,7 @@
     "@react-google-maps/api": "^2.19.2",
     "dotenv": "^16.4.5",
     "next": "14.0.4",
+    "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-select": "^5.8.0",
