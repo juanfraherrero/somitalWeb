@@ -8,9 +8,9 @@ import Head from "next/head";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Somital Aventuras",
-  description:
-    "Empresa de turismo en mar del plata. Especializada en trekking, senderismo, mountain bike (mtb), y actividades al aire libre.",
+  // title: "Somital Aventuras",
+  // description:
+  //   "Empresa de turismo en mar del plata. Especializada en trekking, senderismo, mountain bike (mtb), y actividades al aire libre.",
   keywords:
     "turismo aventura, Mar del Plata, trekking, senderismo, caminata, mountain bike, ciclismo, bici, bicileta, actividades al aire libre, excursiones, turismo costero, turismo sierras",
   author: "Somital Aventuras",
