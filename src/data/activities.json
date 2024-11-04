@@ -42,45 +42,6 @@
   },
   {
     "imageSrc": [
-      "/activities/villaSF/medium/villaSF_1.webp",
-      "/activities/villaSF/medium/villaSF_2.webp",
-      "/activities/villaSF/medium/villaSF_3.webp",
-      "/activities/villaSF/medium/villaSF_4.webp",
-      "/activities/villaSF/medium/villaSF_5.webp",
-      "/activities/villaSF/medium/villaSF_6.webp",
-      "/activities/villaSF/medium/villaSF_7.webp",
-      "/activities/villaSF/medium/villaSF_8.webp",
-      "/activities/villaSF/medium/villaSF_9.webp",
-      "/activities/villaSF/medium/villaSF_10.webp"
-    ],
-    "imageThumbnail": "/activities/villaSF/small/villaSF_1.webp",
-    "name": "Villa San Francisco",
-    "price": "$ A cotizar - Consultanos!",
-    "details": [
-      {
-        "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
-        "value": "A coordinar"
-      },
-      {
-        "label": "Location",
-        "icon": "/svgs/location-icon.svg",
-        "value": "Villa San Francisco",
-        "lat": -37.920700168424304,
-        "lng": -57.557902429910456,
-        "description": "Tirolesa, escalada en palestra, juegos recreativos."
-      },
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 hs" }
-    ],
-    "description": [
-      "Villa San Francisco es el lugar perfecto para que los estudiantes de jardín hasta secundaria experimenten aventuras emocionantes. Nuestras dos palestras y dos tirolesas son ideales para que los estudiantes se diviertan mientras desarrollan habilidades físicas y mentales. Nuestro personal experto y capacitado guiará a los estudiantes a través de cada actividad, asegurando su seguridad mientras se divierten.",
-      "No pierdas la oportunidad de desafiarte a ti mismo y crear recuerdos inolvidables."
-    ],
-    "type": ["institucion", "personal"]
-  },
-  {
-    "imageSrc": [
       "/activities/sierraVentana/medium/sierraVentana_1.webp",
       "/activities/sierraVentana/medium/sierraVentana_2.webp",
       "/activities/sierraVentana/medium/sierraVentana_3.webp",
