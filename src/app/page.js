@@ -127,14 +127,6 @@ export default function Home() {
                 alturas de la sierra Los Difuntos, despegando desde los puntos
                 más altos para una experiencia única en un entorno de montaña.
               </p>
-              <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-                Ofrecemos emocionantes actividades como{" "}
-                <strong>tirolesa</strong> y <strong>palestra</strong>, una
-                actividad favorita para los niños, siendo una opción popular
-                para excursiones con colegios. Estas actividades están diseñadas
-                para maximizar el contacto con la naturaleza y ofrecer momentos
-                inolvidables.
-              </p>
             </div>
           </div>
           <CarouselActivities activities={data} />
