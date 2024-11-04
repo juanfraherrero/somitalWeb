@@ -23,12 +23,6 @@
           "link": "tel:+5492235517063"
         },
         {
-          "type": "telefono",
-          "icon":"/svgs/phone-icon.svg",
-          "value": "+549 223 535-2214",
-          "link": "tel:+5492235352214"
-        },
-        {
           "type": "lugar",
           "icon":"/svgs/location-icon.svg",
           "value": "Mar del Plata, Buenos Aires, Argentina",
