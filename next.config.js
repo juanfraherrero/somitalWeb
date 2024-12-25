@@ -11,7 +11,6 @@ const nextConfig = {
                 value: 'linktr.ee',
               },
             ],
-            permanent: false,
             basePath: false
           },
         ]
