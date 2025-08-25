@@ -43,7 +43,7 @@ const getDetailContent = (detail) => {
 };
 
 const Card = ({ data }) => {
-  const { href, name, price, details, imageThumbnail } = data;
+  const { slug, name, details, imageThumbnail, type } = data;
   return (
     <div className="flex flex-col mx-auto my-6 rounded overflow-hidden shadow-lg bg-foreground w-[250px] md:w-[280px] lg:w-[320px] h-full">
       {/* Image Section - Unchanged */}
@@ -74,7 +74,7 @@ const Card = ({ data }) => {
         {/* Button at the bottom */}
         <div className="mt-auto pt-3 px-2">
           <Link
-            href={`/actividades${href}`}
+            href={`/actividades${type.includes("institucion") ? "/colegios" : ""}${slug}`}
             className="w-full block text-center bg-primary hover:bg-primary/90 text-background font-medium py-2 px-4 rounded transition duration-300"
           >
             Ver más
