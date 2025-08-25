@@ -1,6 +1,6 @@
 "use client";
 import { useContext } from "react";
-import { EstadoGlobalContext } from "../context/EstadoGlobal";
+import { EstadoGlobalContext } from "@/context/EstadoGlobal";
 
 import React from "react";
 import Image from "next/image";
@@ -12,7 +12,7 @@ const CardForSelection = ({ data }) => {
     useContext(EstadoGlobalContext);
 
   return (
-    <div className="m-2 rounded overflow-hidden shadow-lg w-[75%] lg:w-[65%] max-w-[800px] max-h-[600px] bg-white ">
+    <div className="m-2 rounded overflow-hidden shadow-lg w-[75%] lg:w-[65%] max-w-[800px] max-h-[600px] bg-foreground ">
       <div className="aspect-[16/9] w-full">
         <Image
           src={imageSrc[0]} // Reemplaza con tu ruta de imagen
@@ -29,7 +29,7 @@ const CardForSelection = ({ data }) => {
 
       <div className="px-4 py-2 flex flex-row jsutify-center">
         <button
-          className="w-[100%] font-bold text-xs lg:text-md mb-2 text-center rounded hover:text-color-primary hover:bg-color-primary/[.06]  transition duration-300 min-h-[60px] flex items-center justify-center"
+          className="w-[100%] font-bold text-xs lg:text-md mb-2 text-center rounded hover:text-primary hover:bg-primary/[.06]  transition duration-300 min-h-[60px] flex items-center justify-center"
           onClick={() => {
             setSelectedActivity(data);
             window.scrollTo({

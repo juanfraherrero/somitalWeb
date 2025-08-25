@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-script-component-in-head */
 import "./globals.css";
-import { quicksand } from "./fonts";
 
-import { EstadoGlobalProvider } from "../context/EstadoGlobal";
+import { agrandir, raleway, chivo } from "./fonts";
 
 import Head from "next/head";
 import Script from "next/script";
+import Navbar from "@/components/Navbar";
+import FooterSection from "@/sections/Footer";
 
 export const metadata = {
   // title: "Somital Aventuras",
@@ -40,8 +41,13 @@ export default function RootLayout({ children }) {
             `,
         }}
       />
-      <body className={quicksand.className}>
-        <EstadoGlobalProvider>{children}</EstadoGlobalProvider>
+      <body className={`${agrandir.variable} ${raleway.variable} ${chivo.variable} font-sans`}>
+        <Navbar path={"/"} />
+
+        {children}
+
+        {/* SECCIÓN DEL FOOTER */}
+        <FooterSection />
       </body>
     </html>
   );

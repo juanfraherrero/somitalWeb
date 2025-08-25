@@ -6,17 +6,28 @@
       "/activities/rinconGrande/medium/rinconGrande_3.webp"
     ],
     "imageThumbnail": "/activities/rinconGrande/small/rinconGrande_1.webp",
+    "slug": "/actividad-rincon-grande",
     "name": "Rincon Grande",
     "price": "$ A cotizar - Consultanos!",
+    "chips": [
+      "Turismo Aventura",
+      "Senderismo",
+      "MTB",
+      "Escalada",
+      "Asado"
+    ],
     "details": [
       {
         "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
-        "value": "Sábado, Domingo y Feriados"
+        "icon": "calendar",
+        "value": [
+          "sa",
+          "do"
+        ]
       },
       {
         "label": "Location",
-        "icon": "/svgs/location-icon.svg",
+        "icon": "location",
         "value": "Rincón Grande",
         "lat": -37.88220165423163,
         "lng": -57.868810008932755,
@@ -24,21 +35,74 @@
       },
       {
         "label": "Tag",
-        "icon": "/svgs/tag-icon.svg",
+        "icon": "tag",
         "value": "Turismo Aventura"
       },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "10 hs" }
+      {
+        "label": "Time",
+        "icon": "time",
+        "value": "10 hs"
+      }
     ],
     "description": [
-      "¡Bienvenidos a la estancia Rincón Grande! Si estás buscando aventura, ¡has llegado al lugar correcto! Tenemos una amplia variedad de actividades para que disfrutes de la naturaleza y te diviertas al máximo. Aquí te presentamos todo lo que tenemos para ofrecerte:",
-      "*Senderos autoguiados*: Contamos con 4 senderos autoguiados para que puedas explorar la zona a tu propio ritmo. ¡No te pierdas de las vistas panorámicas y la belleza natural que nos rodea!",
-      "*Circuito de MTB*: Si eres un amante de la bicicleta de montaña, ¡este circuito es para ti! Disfruta de la emoción y la adrenalina mientras recorres nuestros senderos.",
-      "*Escalada*: Con más de 200 vías de escalada, ¡tenemos un desafío para todos los niveles! Desde principiantes hasta expertos, ¡ven a poner a prueba tus habilidades!",
-      "*Camping agreste*: Si quieres pasar la noche en la estancia, ¡tenemos un camping agreste para ti! Disfruta de la naturaleza y acampa bajo las estrellas. Contamos con un baño seco y agua potable para tu comodidad.",
-      "*Fogones con mesas*: ¿Qué mejor manera de terminar el día que con una cena al aire libre? Contamos con fogones y mesas para que puedas disfrutar de una cena en familia o con amigos.",
-      "¡Ven a la estancia Rincón Grande y vive la aventura al máximo!"
+      {
+        "title": "Explorá Rincón Grande: naturaleza y aventura cerca de Mar del Plata",
+        "paragraphs": [
+          "Rincón Grande es el lugar perfecto para vivir una experiencia de turismo aventura en plena naturaleza. Ideal para quienes buscan actividades al aire libre cerca de Mar del Plata, esta estancia ofrece senderos, deportes y paisajes únicos."
+        ]
+      },
+      {
+        "title": "Senderismo y trekking en Rincón Grande",
+        "paragraphs": [
+          "Contamos con 4 senderos autoguiados para caminatas y trekking, donde podés descubrir vistas panorámicas y sumergirte en la tranquilidad de la naturaleza. Es una opción ideal para principiantes y aficionados al senderismo."
+        ]
+      },
+      {
+        "title": "Mountain Bike y escalada",
+        "paragraphs": [
+          "Si preferís la adrenalina, Rincón Grande también ofrece un circuito de MTB (mountain bike) y más de 200 vías de escalada. Desde rutas para principiantes hasta desafíos para expertos, este destino es ideal para deportes de aventura en Mar del Plata."
+        ]
+      },
+      {
+        "title": "Camping agreste y fogones",
+        "paragraphs": [
+          "Viví la experiencia completa quedándote en el camping agreste bajo las estrellas. El predio cuenta con baño seco, agua potable, fogones y mesas para disfrutar de una noche al aire libre en compañía de amigos o familia."
+        ]
+      }
     ],
-    "type": ["institucion", "personal"]
+    "type": [
+      "institucion",
+      "personal"
+    ],
+    "seo": {
+      "title": "Rincón Grande | Trekking, MTB y Escalada en Mar del Plata",
+      "description": "Viví la aventura en Rincón Grande: trekking, mountain bike, escalada y camping agreste a minutos de Mar del Plata. Ideal para grupos, colegios y familias.",
+      "canonical": "https://www.somital.com.ar/actividad-rincon-grande",
+      "schemaJsonLd": {
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Rincón Grande | Trekking, MTB y Escalada",
+        "description": "Viví la aventura en Rincón Grande: trekking, mountain bike, escalada y camping agreste a minutos de Mar del Plata. Ideal para grupos, colegios y familias.",
+        "url": "https://www.somital.com.ar/actividad-rincon-grande",
+        "image": "https://www.somital.com.ar/images/rincon-grande.jpg",
+        "provider": {
+          "@type": "Organization",
+          "name": "Somital",
+          "url": "https://www.somital.com.ar",
+          "logo": "https://www.somital.com.ar/logo.png"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Mar del Plata, Buenos Aires, Argentina"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "Consultar",
+          "priceCurrency": "ARS",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
   },
   {
     "imageSrc": [
@@ -59,32 +123,92 @@
       "/activities/sierraVentana/medium/sierraVentana_15.webp"
     ],
     "imageThumbnail": "/activities/sierraVentana/small/sierraVentana_1.webp",
-    "name": "Experiencia Sierra de la Ventana",
+    "name": "Actividad en Sierra de la Ventana",
+    "slug": "/actividad-en-sierra-de-la-ventana",
     "price": "$ A cotizar - Consultanos!",
+    "chips": [
+      "Colegios",
+      "Viaje Educativo",
+      "Turismo Aventura",
+      "Trekking"
+    ],
     "details": [
       {
         "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
+        "icon": "calendar",
         "value": "A coordinar"
       },
       {
         "label": "Location",
-        "icon": "/svgs/location-icon.svg",
+        "icon": "location",
         "value": "Villa Arcadia",
         "lat": -38.13402951173797,
         "lng": -61.78359283640445,
         "description": "Agregar palabras claves de actividades en YMPCAPOLIS"
       },
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 días" }
+      {
+        "label": "Tag",
+        "icon": "tag",
+        "value": "Educativa"
+      },
+      {
+        "label": "Time",
+        "icon": "time",
+        "value": "4 días"
+      }
     ],
     "description": [
-      "¡Prepárate para una experiencia educativa como ninguna otra! ¡Te llevamos a un viaje inolvidable a Sierra de la Ventana, Partido de Tornquist, en la provincia de Buenos Aires!",
-      "¿Estás listo para salir de tu zona de confort y adentrarte en un mundo de descubrimiento y aventura? Este proyecto no es solo un viaje, es una oportunidad única para que los estudiantes se conviertan en exploradores de la vida real. No te conformes con lo ordinario, embárcate en una aventura educativa que cambiará tu perspectiva y te dará un conjunto de habilidades que durarán toda la vida.",
-      "Nuestro objetivo principal es llevar la educación a un nivel superior, combinando las emocionantes actividades de aventura con una educación significativa y concreta. Imagina cuatro días y tres noches de inmersión total, alojándote en el increíble YMCAPOLIS, donde la diversión nunca se detiene. Además, disfrutarás de deliciosas comidas con pensión completa para mantenerte lleno de energía.",
-      "Este viaje no es solo una experiencia, es una oportunidad de crecimiento personal y académico. ¡No dejes que esta aventura pase de largo! ¡Únete a nosotros y descubre un nuevo mundo en Sierra de la Ventana! ¡El conocimiento y la diversión te esperan! ¡Inscríbete hoy y prepárate para la aventura de tu vida!"
+      {
+        "title": "Viaje educativo a Sierra de la Ventana",
+        "paragraphs": [
+          "La experiencia Sierra de la Ventana combina aventura, naturaleza y aprendizaje en un programa diseñado especialmente para colegios y grupos. Durante 4 días, los estudiantes se alojan en YMCAPOLIS, con pensión completa y actividades de integración."
+        ]
+      },
+      {
+        "title": "Actividades al aire libre para aprender en la naturaleza",
+        "paragraphs": [
+          "Durante la estadía se realizan caminatas, juegos de orientación, dinámicas de grupo y talleres educativos. Estas actividades promueven liderazgo, trabajo en equipo y respeto por el medio ambiente."
+        ]
+      },
+      {
+        "title": "Beneficios de esta experiencia",
+        "paragraphs": [
+          "Más allá de la diversión, esta propuesta fortalece valores, habilidades sociales y fomenta el vínculo entre compañeros. Es una oportunidad única para que los estudiantes aprendan desde la práctica en un entorno natural privilegiado."
+        ]
+      }
     ],
-    "type": ["institucion"]
+    "type": [
+      "institucion"
+    ],
+    "seo": {
+      "title": "Viaje Educativo en Sierra de la Ventana | Turismo y Aventura",
+      "description": "Programa educativo en Sierra de la Ventana: trekking, actividades al aire libre y talleres para colegios e instituciones en un entorno natural único.",
+      "canonical": "https://www.somital.com.ar/actividad-en-sierra-de-la-ventana",
+      "schemaJsonLd": {
+        "@context": "https://schema.org",
+        "@type": "TouristTrip",
+        "name": "Viaje Educativo en Sierra de la Ventana",
+        "description": "Programa educativo en Sierra de la Ventana: trekking, actividades al aire libre y talleres para colegios e instituciones en un entorno natural único.",
+        "url": "https://www.somital.com.ar/actividad-en-sierra-de-la-ventana",
+        "image": "https://www.somital.com.ar/images/sierra-ventana.jpg",
+        "provider": {
+          "@type": "Organization",
+          "name": "Somital",
+          "url": "https://www.somital.com.ar",
+          "logo": "https://www.somital.com.ar/logo.png"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Sierra de la Ventana, Buenos Aires, Argentina"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "Consultar",
+          "priceCurrency": "ARS",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
   },
   {
     "imageSrc": [
@@ -99,16 +223,30 @@
     ],
     "imageThumbnail": "/activities/parapente/small/parapente_1.webp",
     "name": "Vuelo en parapente",
+    "slug": "/vuelo-en-parapente",
     "price": "$ A cotizar - Consultanos!",
+    "chips": [
+      "Parapente",
+      "Turismo Aventura",
+      "Sierra Difuntos"
+    ],
     "details": [
       {
         "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
-        "value": "Todos los Días (Consultar)"
+        "icon": "calendar",
+        "value": [
+          "lu",
+          "ma",
+          "mi",
+          "ju",
+          "vi",
+          "sa",
+          "do"
+        ]
       },
       {
         "label": "Location",
-        "icon": "/svgs/location-icon.svg",
+        "icon": "location",
         "value": "Sierra de Los Difuntos",
         "lat": -38.13402951173797,
         "lng": -61.783936159129176,
@@ -116,16 +254,70 @@
       },
       {
         "label": "Tag",
-        "icon": "/svgs/tag-icon.svg",
+        "icon": "tag",
         "value": "Parapente (Turismo Aventura)"
       },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "3 hs" }
+      {
+        "label": "Time",
+        "icon": "time",
+        "value": "3 hs"
+      }
     ],
     "description": [
-      "¿Estás buscando una emocionante aventura en Mar del Plata? ¡No busques más que nuestros vuelos diarios en parapente sobre los acantilados y sierras de la zona! Nuestros vuelos tienen una duración aproximada de 20-30 minutos y no requieren experiencia previa ni acondicionamiento físico. Si sobrevolamos las sierras, incluso combinamos la experiencia con una caminata de media hora. ¿Y la mejor parte? Ofrecemos fotos y videos gratis con una cámara GoPro.",
-      "Si buscas un regalo único, también ofrecemos vales sin fecha de caducidad. Con más de 20 años de experiencia, contamos con licencia de biplano y seguros para garantizar tu seguridad. ¡No te pierdas esta experiencia inolvidable!"
+      {
+        "title": "Vivir la experiencia de volar en parapente en Sierra de los Difuntos",
+        "paragraphs": [
+          "Descubrí la emoción del vuelo en parapente sobre las sierras y acantilados de Mar del Plata, una de las actividades de turismo aventura más buscadas en la región.",
+          "Nuestros vuelos tienen una duración aproximada de 20 a 30 minutos y no requieren experiencia previa ni entrenamiento físico."
+        ]
+      },
+      {
+        "title": "Una aventura segura y memorable",
+        "paragraphs": [
+          "Si volamos sobre las sierras, combinamos la experiencia con una caminata de media hora, ideal para quienes buscan un contacto más profundo con la naturaleza.",
+          "La actividad incluye fotos y videos con GoPro sin costo adicional, para que te lleves el mejor recuerdo."
+        ]
+      },
+      {
+        "title": "Regalos y experiencias únicas",
+        "paragraphs": [
+          "Ofrecemos vales sin fecha de caducidad, perfectos como regalo original para cumpleaños, aniversarios o celebraciones.",
+          "Con más de 20 años de experiencia, licencias oficiales y seguros, garantizamos una aventura segura e inolvidable."
+        ]
+      }
     ],
-    "type": ["personal"]
+    "type": [
+      "personal"
+    ],
+    "seo": {
+      "title": "Vuelo en Parapente en Mar del Plata | Aventura Segura y Única",
+      "description": "Experimentá la emoción de volar en parapente sobre las sierras de Mar del Plata. Actividad segura, con fotos y videos incluidos. ¡Una experiencia inolvidable!",
+      "canonical": "https://www.somital.com.ar/vuelo-en-parapente",
+      "schemaJsonLd": {
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Vuelo en Parapente en Mar del Plata",
+        "description": "Experimentá la emoción de volar en parapente sobre las sierras de Mar del Plata. Actividad segura, con fotos y videos incluidos.",
+        "url": "https://www.somital.com.ar/vuelo-en-parapente",
+        "image": "https://www.somital.com.ar/images/parapente.jpg",
+        "provider": {
+          "@type": "Organization",
+          "name": "Somital",
+          "url": "https://www.somital.com.ar",
+          "logo": "https://www.somital.com.ar/logo.png"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Mar del Plata, Buenos Aires, Argentina"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "Consultar",
+          "priceCurrency": "ARS",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
   },
   {
     "imageSrc": [
@@ -140,29 +332,96 @@
       "/activities/expPlaya/medium/expPlaya_9.webp"
     ],
     "imageThumbnail": "/activities/expPlaya/small/expPlaya_1.webp",
-    "name": "Experiencia Playa",
+    "name": "Actividad en la Playa",
+    "slug": "/actividad-en-la-playa",
     "price": "$ A cotizar - Consultanos!",
+    "chips": [
+      "Colegios",
+      "Viaje Educativo",
+      "Trekking Playa",
+      "Bosque Energético"
+    ],
     "details": [
       {
         "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
+        "icon": "calendar",
         "value": "A coordinar"
       },
       {
         "label": "Location",
-        "icon": "/svgs/location-icon.svg",
+        "icon": "location",
         "value": "Bosque Energetico",
         "lat": -38.29319704638621,
         "lng": -57.87391162953653,
         "description": "Trekking, orientación con brújula, primeros auxilios y sandboard"
       },
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "8 hs" }
+      {
+        "label": "Tag",
+        "icon": "tag",
+        "value": "Educativa"
+      },
+      {
+        "label": "Time",
+        "icon": "time",
+        "value": "8 hs"
+      }
     ],
     "description": [
-      "El objetivo de esta experiencia es brindar prácticas pedagógicas donde la playa se convierta en un espacio integrado de aprendizaje. Las actividades tienen como objetivo promover el trabajo en equipo, actitudes positivas hacia los compromisos diarios, la comunicación, el liderazgo y la confianza entre pares. Los participantes también desarrollarán su respuesta a la presión y el cambio, así como su comprensión del entorno natural a través de la experiencia práctica. Las actividades incluyen trekking, orientación con brújula, primeros auxilios y sandboard. Estas actividades ayudarán a los participantes a comprender conceptos como liderazgo, trabajo en equipo, comunicación y compañerismo de una manera divertida y atractiva. La experiencia proporcionará un desafío que es una metáfora de la vida y dejará a los participantes con algo que necesitan. El objetivo final es ayudar a los participantes a comprender y valorar las posibilidades que ofrece el entorno natural para la realización de actividades recreativas y deportivas, fomentando al mismo tiempo la necesidad de conservarlo y protegerlo."
+      {
+        "title": "Una experiencia educativa en la playa",
+        "paragraphs": [
+          "La experiencia playa transforma el entorno costero en un aula al aire libre para colegios, grupos e instituciones.",
+          "A través de dinámicas y juegos pedagógicos, se promueve el trabajo en equipo, la comunicación y el liderazgo."
+        ]
+      },
+      {
+        "title": "Actividades que integran aprendizaje y diversión",
+        "paragraphs": [
+          "Los participantes se enfrentan a desafíos prácticos como trekking, orientación con brújula, primeros auxilios y sandboard.",
+          "Cada actividad está pensada para reforzar habilidades blandas como la confianza, la toma de decisiones y el compañerismo."
+        ]
+      },
+      {
+        "title": "Conexión con la naturaleza y valores",
+        "paragraphs": [
+          "La playa se convierte en un espacio de reflexión y crecimiento, donde los estudiantes aprenden a valorar el entorno natural.",
+          "La propuesta fomenta la conservación del ambiente, integrando educación, deporte y recreación en un mismo programa."
+        ]
+      }
     ],
-    "type": ["institucion"]
+    "type": [
+      "institucion"
+    ],
+    "seo": {
+      "title": "Actividades Educativas en la Playa | Programas para Colegios",
+      "description": "Descubrí la experiencia educativa en la playa: trekking, orientación, sandboard y juegos pedagógicos. Ideal para colegios e instituciones en Mar del Plata.",
+      "canonical": "https://www.somital.com.ar/actividad-en-la-playa",
+      "schemaJsonLd": {
+        "@context": "https://schema.org",
+        "@type": "EducationalOccupationalProgram",
+        "name": "Actividades Educativas en la Playa",
+        "description": "Experiencia educativa en la playa: trekking, orientación, sandboard y juegos pedagógicos. Ideal para colegios e instituciones en Mar del Plata.",
+        "url": "https://www.somital.com.ar/actividad-en-la-playa",
+        "image": "https://www.somital.com.ar/images/playa.jpg",
+        "provider": {
+          "@type": "Organization",
+          "name": "Somital",
+          "url": "https://www.somital.com.ar",
+          "logo": "https://www.somital.com.ar/logo.png"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Mar del Plata, Buenos Aires, Argentina"
+        },
+        "educationalCredentialAwarded": "Experiencia educativa en contacto con la naturaleza",
+        "offers": {
+          "@type": "Offer",
+          "price": "Consultar",
+          "priceCurrency": "ARS",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
   },
   {
     "imageSrc": [
@@ -177,29 +436,96 @@
       "/activities/expLaguna/medium/expLaguna_9.webp"
     ],
     "imageThumbnail": "/activities/expLaguna/small/expLaguna_1.webp",
-    "name": "Experiencia Laguna",
+    "name": "Actividad en la Laguna",
+    "slug": "/actividad-en-la-laguna-mar-chiquita",
     "price": "$ A cotizar - Consultanos!",
+    "chips": [
+      "Colegios",
+      "Viaje Educativo",
+      "Kayak",
+      "Stand Up Paddle",
+      "Mar Chiquita"
+    ],
     "details": [
       {
         "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
+        "icon": "calendar",
         "value": "A coordinar"
       },
       {
         "label": "Location",
-        "icon": "/svgs/location-icon.svg",
+        "icon": "location",
         "value": "Laguna de Mar Chiquita",
         "lat": -37.7369515298438,
         "lng": -57.421912012905146,
         "description": "Kayak, caminatas (Senderismo), sup."
       },
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "8 hs" }
+      {
+        "label": "Tag",
+        "icon": "tag",
+        "value": "Educativa"
+      },
+      {
+        "label": "Time",
+        "icon": "time",
+        "value": "8 hs"
+      }
     ],
     "description": [
-      "La Laguna de Mar Chiquita es un lugar ideal para realizar actividades al aire libre y aprender de la naturaleza. En este ambiente único se pueden realizar diversas actividades, como caminatas, kayak, sup, avistamiento de aves, entre otras. Todas estas actividades pueden ser aprovechadas para lograr diversos objetivos y para disfrutar de la belleza natural de este lugar. ¡Anímate a vivir esta experiencia única y enriquecedora!"
+      {
+        "title": "Una jornada educativa en la Laguna de Mar Chiquita",
+        "paragraphs": [
+          "La experiencia laguna combina deporte, aventura y educación en un ecosistema único cerca de Mar del Plata.",
+          "Ideal para colegios e instituciones que buscan actividades al aire libre con valor pedagógico."
+        ]
+      },
+      {
+        "title": "Actividades en un entorno natural único",
+        "paragraphs": [
+          "Los estudiantes y grupos pueden participar en kayak, stand up paddle y caminatas por los senderos naturales.",
+          "Además, se incluye avistamiento de aves, fomentando la observación y respeto por la biodiversidad."
+        ]
+      },
+      {
+        "title": "Aprender cuidando el medio ambiente",
+        "paragraphs": [
+          "La propuesta busca generar conciencia sobre la importancia de la conservación ambiental.",
+          "Cada actividad combina diversión, deporte y educación, dejando una experiencia enriquecedora e inolvidable."
+        ]
+      }
     ],
-    "type": ["institucion"]
+    "type": [
+      "institucion"
+    ],
+    "seo": {
+      "title": "Kayak y Actividades Educativas en la Laguna de Mar Chiquita",
+      "description": "Jornada educativa en la laguna: kayak, stand up paddle, trekking y avistaje de aves. Una propuesta ideal para colegios e instituciones cerca de Mar del Plata.",
+      "canonical": "https://www.somital.com.ar/actividad-en-la-laguna-mar-chiquita",
+      "schemaJsonLd": {
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Kayak y Actividades Educativas en Laguna de Mar Chiquita",
+        "description": "Jornada educativa en la laguna: kayak, stand up paddle, trekking y avistaje de aves. Propuesta para colegios e instituciones cerca de Mar del Plata.",
+        "url": "https://www.somital.com.ar/actividad-en-la-laguna-mar-chiquita",
+        "image": "https://www.somital.com.ar/images/laguna-mar-chiquita.jpg",
+        "provider": {
+          "@type": "Organization",
+          "name": "Somital",
+          "url": "https://www.somital.com.ar",
+          "logo": "https://www.somital.com.ar/logo.png"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Mar Chiquita, Buenos Aires, Argentina"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "Consultar",
+          "priceCurrency": "ARS",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
   },
   {
     "imageSrc": [
@@ -217,33 +543,96 @@
       "/activities/expSierras/medium/expSierras_12.webp"
     ],
     "imageThumbnail": "/activities/expSierras/small/expSierras_1.webp",
-    "name": "Experiencia Sierras",
+    "name": "Actividad en las Sierras",
+    "slug": "/actividad-en-las-sierras-en-rincon-grande",
     "price": "$ A cotizar - Consultanos!",
+    "chips": [
+      "Colegios",
+      "Viaje Educativo",
+      "Trekking",
+      "Mountain Bike",
+      "Rincón Grande"
+    ],
     "details": [
       {
         "label": "Date",
-        "icon": "/svgs/calendar-icon.svg",
+        "icon": "calendar",
         "value": "A coordinar"
       },
       {
         "label": "Location",
-        "icon": "/svgs/location-icon.svg",
+        "icon": "location",
         "value": "Rincón Grande",
         "lat": -37.88220165423163,
         "lng": -57.868810008932755,
         "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."
       },
-      { "label": "Tag", "icon": "/svgs/tag-icon.svg", "value": "Educativa" },
-      { "label": "Time", "icon": "/svgs/time-icon.svg", "value": "4 hs" }
+      {
+        "label": "Tag",
+        "icon": "tag",
+        "value": "Educativa"
+      },
+      {
+        "label": "Time",
+        "icon": "time",
+        "value": "4 hs"
+      }
     ],
     "description": [
-      "Recorrer un sendero en un medio natural nos proporciona una oportunidad única para emprender también, un camino interior, hacia nuestro crecimiento personal.",
-      "Las actividades físicas en el medio natural tienen una profunda relación con la Supervivencia. Este debe ser el centro de interés de todos aquellos contenidos de bloques de actividades en la naturaleza.",
-      "Para aprovechar este momento educativo se necesitan recursos y herramientas que favorezcan la implicación global de la persona y así poner en marcha el proceso de adquisición y afianzamiento de actitudes y valores.",
-      "Las actividades realizadas en la naturaleza a través de distintos desafíos pueden alcanzar un cúmulo de sensaciones que van desde los umbrales más catárticos a los más adrenalínicos.",
-      "Se ofrecen actividades de aventura, juegos y actividades lúdicas que ayudan a comprender  de   mejor manera   conceptos tales como el liderazgo, el trabajo en equipo, la autosuperación, la comunicación y el compañerismo.",
-      "“La experiencia propone un desafío, es una metáfora para la vida, deja algo que necesitas… agradécele su visita”"
+      {
+        "title": "Explorar las sierras de Rincón Grande",
+        "paragraphs": [
+          "La experiencia sierras propone un recorrido educativo y recreativo por Rincón Grande, un entorno natural ideal para trekking, MTB y senderismo.",
+          "Cada actividad está pensada para que los estudiantes desarrollen habilidades personales mientras disfrutan del aire libre."
+        ]
+      },
+      {
+        "title": "Desafíos físicos y crecimiento personal",
+        "paragraphs": [
+          "El contacto con la naturaleza permite trabajar valores como el liderazgo, la autosuperación y el trabajo en equipo.",
+          "Las propuestas incluyen juegos, dinámicas y actividades de aventura que despiertan emociones intensas y fomentan la resiliencia."
+        ]
+      },
+      {
+        "title": "Educación en la naturaleza",
+        "paragraphs": [
+          "Las actividades en sierras son una metáfora de la vida: presentan desafíos, enseñan a adaptarse y dejan aprendizajes duraderos.",
+          "La experiencia sierras combina deporte, recreación y educación en un solo programa."
+        ]
+      }
     ],
-    "type": ["institucion"]
+    "type": [
+      "institucion"
+    ],
+    "seo": {
+      "title": "Actividades Educativas en las Sierras | Trekking y MTB en Rincón Grande",
+      "description": "Explorá las sierras de Rincón Grande con trekking, mountain bike y dinámicas educativas. Actividad diseñada para colegios y grupos en plena naturaleza.",
+      "canonical": "https://www.somital.com.ar/actividad-en-las-sierras-en-rincon-grande",
+      "schemaJsonLd": {
+        "@context": "https://schema.org",
+        "@type": "EducationalOccupationalProgram",
+        "name": "Actividades Educativas en las Sierras de Rincón Grande",
+        "description": "Explorá las sierras de Rincón Grande con trekking, mountain bike y dinámicas educativas. Actividad diseñada para colegios y grupos.",
+        "url": "https://www.somital.com.ar/actividad-en-las-sierras-en-rincon-grande",
+        "image": "https://www.somital.com.ar/images/rincon-grande-educativo.jpg",
+        "provider": {
+          "@type": "Organization",
+          "name": "Somital",
+          "url": "https://www.somital.com.ar",
+          "logo": "https://www.somital.com.ar/logo.png"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Mar del Plata, Buenos Aires, Argentina"
+        },
+        "educationalCredentialAwarded": "Programa educativo en la naturaleza",
+        "offers": {
+          "@type": "Offer",
+          "price": "Consultar",
+          "priceCurrency": "ARS",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
   }
 ]

@@ -72,9 +72,8 @@ const ContactForm = () => {
           onChange={handleChange}
           onBlur={() => handleBlur("firstName")}
           required
-          className={`w-full rounded border-white border-2 text-black font-normal ${
-            errors.firstName ? "border-red-500" : "focus:ring-indigo-500"
-          }`}
+          className={`w-full rounded border-foreground border-2 text-black font-normal ${errors.firstName ? "border-red-500" : "focus:ring-indigo-500"
+            }`}
         />
         {errors.firstName && (
           <p className="text-red-500 text-xs mt-1">Nombre es requerido</p>
@@ -92,9 +91,8 @@ const ContactForm = () => {
           onChange={handleChange}
           onBlur={() => handleBlur("lastName")}
           required
-          className={`w-full rounded border-white border-2 text-black font-normal ${
-            errors.lastName ? "border-red-500" : "focus:ring-indigo-500"
-          }`}
+          className={`w-full rounded border-foreground border-2 text-black font-normal ${errors.lastName ? "border-red-500" : "focus:ring-indigo-500"
+            }`}
         />
         {errors.lastName && (
           <p className="text-red-500 text-xs mt-1">Apellido es requerido</p>
@@ -112,9 +110,8 @@ const ContactForm = () => {
           onBlur={() => handleBlur("content")}
           rows="4"
           required
-          className={`w-full rounded border-white border-2 text-black font-normal ${
-            errors.content ? "border-red-500" : "focus:ring-indigo-500"
-          }`}
+          className={`w-full rounded border-foreground border-2 text-black font-normal ${errors.content ? "border-red-500" : "focus:ring-indigo-500"
+            }`}
         ></textarea>
         {errors.content && (
           <p className="text-red-500 text-xs mt-1">Mensaje es requerido</p>
@@ -122,7 +119,7 @@ const ContactForm = () => {
       </div>
       <button
         type="submit"
-        className="bg-color-secondary/[0.8] text-color-primary font-bold py-2 px-4 rounded hover:bg-color-secondary transition duration-300"
+        className="bg-primary text-background font-bold py-2 px-4 rounded hover:bg-primary/80 transition duration-300"
       >
         Enviar
       </button>
