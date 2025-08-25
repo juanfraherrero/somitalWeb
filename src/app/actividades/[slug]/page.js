@@ -32,8 +32,8 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function ActivityPage({ params }) {
-    const { slug, schema } = params;
+export default async function ActivityPage({ params }) {
+    const { slug, schema } = await params;
     const activity = activities.find((a) => a.slug === `/${slug}`);
 
     if (!activity) {
