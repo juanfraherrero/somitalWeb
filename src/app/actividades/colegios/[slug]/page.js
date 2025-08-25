@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-    const { slug, schema } = await params;
+    const { slug } = await params;
     const activity = activities.find((a) => a.slug === `/${slug}`);
 
     if (!activity) {
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default function ActivityPage({ params }) {
-    const { slug } = params;
+    const { slug, schema } = params;
     const activity = activities.find((a) => a.slug === `/${slug}`);
 
     if (!activity) {
