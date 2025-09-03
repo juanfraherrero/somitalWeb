@@ -3,8 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
-const Navbar = ({ path }) => {
+const Navbar = () => {
+  const currentPath = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -55,7 +57,7 @@ const Navbar = ({ path }) => {
             className='nav-item border-transparent text-secondary hover:border-b-2 hover:border-secondary transition duration-300'>
             Mapa
           </Link>
-          <Link key="contacto" href={path + "#contacto"}
+          <Link key="contacto" href={currentPath + "#contacto"}
             className='nav-item border-transparent text-secondary hover:border-b-2 hover:border-secondary transition duration-300'>
             Contacto
           </Link>
@@ -99,7 +101,7 @@ const Navbar = ({ path }) => {
             className='nav-item text-left py-4 font-bold border-transparent text-secondary hover:border-b-2 hover:border-secondary transition duration-300'>
             Mapa
           </Link>
-          <Link key="contacto" href={path + "#contacto"} onClick={() => { setTimeout(toggleMenu(), 300) }}
+          <Link key="contacto" href={currentPath + "#contacto"} onClick={() => { setTimeout(toggleMenu(), 300) }}
             className='nav-item text-left py-4 font-bold border-transparent text-secondary hover:border-b-2 hover:border-secondary transition duration-300'>
             Contacto
           </Link>

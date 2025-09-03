@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body className={`${agrandir.variable} ${raleway.variable} ${chivo.variable} font-sans`}>
-        <Navbar path={"/"} />
+        <Navbar />
 
         {children}
 
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <FooterSection />
 
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLLB3VT7"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe></noscript>
 
       </body>
     </html>
