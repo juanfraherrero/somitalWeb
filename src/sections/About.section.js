@@ -82,7 +82,7 @@ const AboutSection = () => {
             Nuestra visión en Somital es clara
           </p>
           <p className="text-2xl md:text-3xl font-medium text-secondary leading-normal mb-6">
-            "Crear experiencias donde las personas puedan conectar con el entorno natural, superar sus miedos y descubrir nuevas fortalezas."
+&ldquo;Crear experiencias donde las personas puedan conectar con el entorno natural, superar sus miedos y descubrir nuevas fortalezas.&rdquo;
           </p>
           <p className="text-lg text-secondary/90 leading-relaxed">
             Queremos que cada salida sea más que una excursión: una experiencia única de crecimiento personal y colectivo, donde quienes nos elijan descubran que la verdadera aventura también está dentro de ellos.
