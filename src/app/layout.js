@@ -11,7 +11,7 @@ export const metadata = {
   keywords:
     "turismo aventura, Mar del Plata, trekking, senderismo, caminata, mountain bike, ciclismo, bici, Sierra de los Padres, Sierra los Difuntos",
   author: "Somital",
-  "google-site-verification": "fu978mignKAkmu0uVbqpawI7qVdGBpo3eWQDjQxhW_U",
+  // "google-site-verification": "fu978mignKAkmu0uVbqpawI7qVdGBpo3eWQDjQxhW_U",
 };
 
 export default function RootLayout({ children }) {
