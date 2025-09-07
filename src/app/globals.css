@@ -2,28 +2,237 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Animations */
+@keyframes logoSlideUp {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
 
-
-:root {
-  --color-primary: #781F1C;
-  --color-secondary: #FCBD30;
-  --color-accent: #9A5755;
-  --color-text: #777777;
-  --color-white: #FFFFFF;
-  --color-white-soft: #F6F8FB;
-  --color-black: #000000;
-  /* --font-family: "Quicksand",Sans-serif; */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0; */
+  to {
+    transform: translateY(-50px);
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--color-text));
-  background: rgb(var(--color-white));
+@keyframes textSlideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes blurIn {
+  from {
+    backdrop-filter: blur(0);
+    opacity: 0.8;
+  }
+
+  to {
+    backdrop-filter: blur(8px);
+    opacity: 1;
+  }
+}
+
+
+/* New animations for About section */
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.6s ease-out 0.2s forwards;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.6s ease-out 0.4s forwards;
+}
+
+.text-fluid {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.animate-logo-slide-up {
+  animation: logoSlideUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-text-slide-down {
+  animation: textSlideDown 1s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out 1s forwards;
+  opacity: 0;
+}
+
+.animate-blur-in {
+  animation: blurIn 2s ease-in-out forwards;
+  backdrop-filter: blur(8px);
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.3s ease-out forwards;
+}
+
+.slide-out-left {
+  animation: slideOutLeft 0.3s ease-out forwards;
+}
+
+:root {
+  /* Base colors - Keep existing color variables for backward compatibility */
+
+  /* --color-main-red: #c73420; */
+  --color-main-red: 7.186 72.3% 45.3%;
+  /* --color-storm-gray: #2d2d2d; */
+  --color-storm-gray: 0 0% 17.8%;
+  /* --color-snow-white: #fafafa; */
+  --color-snow-white: 0 0% 98%;
+
+  /* --color-anthracite: #1a1a1a;  */
+  --color-anthracite: 0 0% 10%;
+  /* --color-rock-gray: #999999; */
+  --color-rock-gray: 0 0% 60%;
+
+  /* BLANCO */
+  --background: var(--color-snow-white);
+  /* NEGRO */
+  --foreground: var(--color-anthracite);
+
+  /* ROJO */
+  --primary: var(--color-main-red);
+  /* BLANCO */
+  --primary-foreground: var(--color-snow-white);
+
+  /* GRIS OSCURO */
+  --secondary: var(--color-storm-gray);
+  /* BLANCO */
+  --secondary-foreground: var(--color-snow-white);
+
+  /* GRIS MEDIO */
+  --muted: var(--color-rock-gray);
+  /* BLANCO */
+  --muted-foreground: var(--color-snow-white);
+
+  --accent: var(--color-rock-gray);
+  --accent-foreground: var(--color-snow-white);
+
+  /* Gradients */
+  --gradient-storm-to-rock: linear-gradient(45deg,
+      hsl(var(--color-storm-gray)) 0%,
+      hsl(var(--color-rock-gray)) 100%);
+
+  --gradient-primary: linear-gradient(45deg,
+      hsl(var(--primary)) 0%,
+      hsl(var(--primary-foreground)) 100%);
+
+  /* --font-family: "Quicksand",Sans-serif; */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+@layer base {
+  * {
+    /* @apply border-border; */
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    /* background-color: var(--background);
+    color: var(--foreground); */
+  }
+
+  html {
+    @apply bg-background text-foreground;
+  }
+
+  .my-heading2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-secondary text-center
+  }
+
+  .my-heading3 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold text-secondary text-center
+  }
 }

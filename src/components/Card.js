@@ -1,54 +1,85 @@
 "use client";
-import { useContext } from "react";
-import { EstadoGlobalContext } from "../context/EstadoGlobal";
 
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { MapIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
+import CalendarDays from './CalendarDays';
+import { INSTITUCION } from "@/types/activity.type";
+
+const getDetailContent = (detail) => {
+  const iconProps = { className: "h-5 w-5 mr-2 text-primary flex-shrink-0" };
+
+  switch (detail.icon) {
+    case 'calendar':
+      return (
+        <div className="flex items-start">
+          <CalendarIcon {...iconProps} />
+          <CalendarDays availableDays={detail.value} />
+        </div>
+      );
+    case 'time':
+      return (
+        <div className="flex items-start">
+          <ClockIcon {...iconProps} />
+          <div>
+            <div className="text-xs text-secondary/70">Duración</div>
+            <div className="text-sm text-secondary">{detail.value}</div>
+          </div>
+        </div>
+      );
+    case 'location':
+      return (
+        <div className="flex items-start col-span-2">
+          <MapIcon {...iconProps} />
+          <div>
+            <div className="text-xs text-secondary/70">Ubicación</div>
+            <div className="text-sm text-secondary">{detail.value}</div>
+          </div>
+        </div>
+      );
+    default:
+      return null;
+  }
+};
 
 const Card = ({ data }) => {
-  const { imageSrc, name, price, details, type, imageThumbnail } = data;
-  let { setSelectedActivity } = useContext(EstadoGlobalContext);
+  const { slug, name, details, imageThumbnail, type } = data;
   return (
-    <div className="mx-auto my-6 rounded overflow-hidden shadow-lg min-h-[350] max-w-[800px] max-h-[600px] mx-[30px] bg-white w-[250px] md:w-[250px] lg:w-[338px]  ">
+    <div className="flex flex-col mx-auto my-6 rounded overflow-hidden shadow-lg bg-foreground w-[250px] md:w-[280px] lg:w-[320px] h-full">
+      {/* Image Section - Unchanged */}
       <div className="aspect-[16/9] w-full">
         <Image
-          src={imageThumbnail} // Reemplaza con tu ruta de imagen
-          alt="Fondo"
-          // layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          // priority={true}
+          src={imageThumbnail}
+          alt={name}
           width={350}
-          height={40}
-          className="w-full"
+          height={200}
+          className="w-full h-full object-cover"
         />
       </div>
 
-      <div className="px-6 py-4 ">
-        <Link
-          href={type.includes("institucion") ? "/colegios" : "/actividades"}
-          onClick={() => setSelectedActivity(data)}
-        >
-          <div className="font-bold text-xl mb-2 text-center rounded hover:text-color-primary hover:bg-color-primary/[.06]  transition duration-300 min-h-[60px] flex items-center justify-center">
-            {name}
-          </div>
-        </Link>
-        <p className="text-gray-700 text-base">{price}</p>
-        <hr className="my-2" />
-        <div className="grid grid-cols-2 gap-4 min-h-[140px] ">
-          {details.map((detail, index) => (
-            <div key={index} className="flex items-center">
-              <Image
-                src={detail.icon}
-                alt={detail.label}
-                width={10}
-                height={10}
-                className="h-6 w-6 mr-2"
-              />
-              <span className="text-sm">{detail.value}</span>
-            </div>
-          ))}
+      {/* Content Section */}
+      <div className="flex flex-col flex-grow p-4 bg-background">
+        {/* Title */}
+        <h3 className="text-lg font-semibold text-secondary mb-3 px-2">
+          {name}
+        </h3>
+
+        {/* Details Grid */}
+        <div className="space-y-4 mb-4 px-2">
+          {details.find(d => d.icon === 'calendar') && getDetailContent(details.find(d => d.icon === 'calendar'))}
+          {details.find(d => d.icon === 'time') && getDetailContent(details.find(d => d.icon === 'time'))}
+          {details.find(d => d.icon === 'location') && getDetailContent(details.find(d => d.icon === 'location'))}
+        </div>
+
+        {/* Button at the bottom */}
+        <div className="mt-auto pt-3 px-2">
+          <Link
+            href={`/actividades${type?.includes(INSTITUCION) ? "/colegios" : ""}${slug}`}
+            className="w-full block text-center bg-primary hover:bg-primary/90 text-background font-medium py-2 px-4 rounded transition duration-300"
+          >
+            Ver más
+          </Link>
         </div>
       </div>
     </div>

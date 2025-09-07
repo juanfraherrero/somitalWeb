@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import data from "../data/infoFooter.json";
+import data from "@/data/infoFooter.json";
 
-import FormFooter from "./FormFooter";
+import FormFooter from "../components/FormFooter";
 
-const Footer = () => {
+const FooterSection = () => {
   return (
-    <footer id="contacto" className="bg-color-primary py-8 text-white">
+    <footer id="contacto" className="bg-muted py-8 text-foreground">
       <h2 className="sr-only">Contactar</h2>
       <div className="container mx-auto flex flex-col justify-center items-center xmd:flex-row xmd:items-start max-w-7xl mx-auto ">
         {data.map((column, index) => (
@@ -19,21 +19,21 @@ const Footer = () => {
             <div className="mx-auto w-4/5">
               <h4 className="text-2xl font-semibold mb-4">{column.column}</h4>
               {column.rows.map((row, index) => (
-                <div key={index} className="mb-2 flex items-center">
-                  <Link href={row.link ? row.link : ""}>
+                <div key={index} className="mb-2 flex items-center fill-black" >
+                  <Link href={row.link ? row.link : ""} className="flex-shrink-0">
                     <Image
                       src={row.icon}
                       alt={`icono-${row.type}`}
                       width={30}
                       height={30}
-                      className="mr-4"
+                      className="mr-4 "
                     />
                   </Link>
                   <Link
                     href={row.link ? row.link : ""}
                     target={row.target ? row.target : "_self"}
                   >
-                    <p className="text-sm xmd:text-lg">
+                    <p className="text-sm xmd:text-lg overflow-hidden">
                       {column.column == "Redes" ? row.type : row.value}
                     </p>
                   </Link>
@@ -55,4 +55,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterSection;
