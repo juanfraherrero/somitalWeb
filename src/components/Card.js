@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MapIcon, ClockIcon, CalendarIcon } from "@heroicons/react/24/outline";
 import CalendarDays from './CalendarDays';
+import { INSTITUCION } from "@/types/activity.type";
 
 const getDetailContent = (detail) => {
   const iconProps = { className: "h-5 w-5 mr-2 text-primary flex-shrink-0" };
@@ -74,7 +75,7 @@ const Card = ({ data }) => {
         {/* Button at the bottom */}
         <div className="mt-auto pt-3 px-2">
           <Link
-            href={`/actividades${type.includes("institucion") ? "/colegios" : ""}${slug}`}
+            href={`/actividades${type?.includes(INSTITUCION) ? "/colegios" : ""}${slug}`}
             className="w-full block text-center bg-primary hover:bg-primary/90 text-background font-medium py-2 px-4 rounded transition duration-300"
           >
             Ver más

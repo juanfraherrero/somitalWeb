@@ -1,5 +1,7 @@
 import dynamic from 'next/dynamic';
-import data from "@/data/activities.json";
+import activities from "@/data/activities.json";
+import activities_colegios from "@/data/activities-colegios.json";
+import { INSTITUCION } from '@/types/activity.type';
 const CarouselActivities = dynamic(() => import("../components/CarouselActivities"));
 
 export const ACTIVITIES_CAROUSEL = "actividades-carousel"
@@ -17,7 +19,7 @@ const ActivitiesSection = () => {
           Cada experiencia se adapta a grupos de colegios, familias, turistas y amantes del aire libre.
         </p>
       </div>
-      <CarouselActivities activities={data} />
+      <CarouselActivities activities={[...activities.filter(act => act.slug !== "/actividad-rincon-grande"), ...activities_colegios.map(act => { return { ...act, type: INSTITUCION } })]} />
     </section>
   );
 };

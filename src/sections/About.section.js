@@ -12,12 +12,11 @@ const AboutSection = () => {
         </h2>
         <div className="w-20 h-1 bg-secondary mx-auto mb-8 "></div>
         <p className="max-w-4xl text-left mx-auto text-lg text-secondary">
-          Somos Alfredo y Claudia, y en el año 2005 decidimos dar vida a Somital, con el sueño de acercar la naturaleza y la aventura a todas las personas.
+          Somos Alfredo y Claudia, y desde 2005 damos vida a Somital con un propósito: acercar la naturaleza y la aventura a todas las personas.
           <br className='mb-2' />
-          Comenzamos realizando salidas educativas con colegios, actividades que nos llenaban de alegría porque nos permitían <span className='font-semibold'>enseñar, compartir y ayudar a los chicos a descubrir sus propias capacidades</span>.
-          En cada excursión vimos cómo podían superar miedos, ganar confianza y conectar con la naturaleza de una forma única.
+          Nuestros comienzos fueron con salidas educativas junto a colegios, experiencias que nos mostraron la fuerza transformadora de la montaña: chicos y chicas que superaban miedos, ganaban confianza y descubrían sus capacidades en contacto directo con la naturaleza.
           <br className='mb-2' />
-          Hoy seguimos con la misma pasión de entonces: diseñamos experiencias de turismo aventura que mezclan <span className='font-semibold'>profesionalismo, seguridad y emoción</span>, para que cada salida sea un momento de aprendizaje y disfrute.
+          Hoy mantenemos intacta esa pasión. Diseñamos experiencias de turismo aventura donde se combinan profesionalismo, seguridad y emoción, para que cada salida no sea solo un recorrido, sino un momento de aprendizaje, disfrute y conexión profunda con la naturaleza.
         </p>
       </div>
 

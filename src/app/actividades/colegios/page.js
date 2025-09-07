@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import activities from '@/data/activities.json';
+import activities from '@/data/activities-colegios.json';
 import Head from 'next/head';
 
 export const metadata = {
@@ -18,8 +18,8 @@ const schemaJsonLd = {
   "name": "Actividades y Programas Educativos para Colegios en Mar del Plata - Somital",
   "description": "Explora las actividades de aventura, educación y turismo en Mar del Plata y alrededores. Trekking, tirolesa, kayak, mountain bike, visitas educativas y más.",
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
-  "numberOfItems": activities.filter((activity) => activity.type.includes("institucion")).length,
-  "itemListElement": activities.filter((activity) => activity.type.includes("institucion")).map((activity, index) => {
+  "numberOfItems": activities.length,
+  "itemListElement": activities.map((activity, index) => {
     return {
       "@type": "ListItem",
       "position": index + 1,
@@ -54,7 +54,7 @@ export default function ActividadesPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {activities.filter((activity) => activity.type.includes("institucion")).map((activity) => (
+          {activities.map((activity) => (
             <Link
               key={activity.slug}
               href={`/actividades/colegios${activity.slug}`}
