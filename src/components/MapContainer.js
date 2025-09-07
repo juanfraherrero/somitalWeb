@@ -5,7 +5,7 @@ import { GoogleMap, Marker, InfoWindow, useJsApiLoader } from '@react-google-map
 const MapContainer = ({ locations }) => {
     const [selectedMarker, setSelectedMarker] = useState(null);
     const { isLoaded } = useJsApiLoader({
-        googleMapsApiKey: "REDACTED_GOOGLE_MAPS_API_KEY",// process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
         
     });
 
