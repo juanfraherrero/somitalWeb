@@ -4,17 +4,13 @@ import "./globals.css";
 import { agrandir, raleway, chivo } from "./fonts";
 
 import Head from "next/head";
-import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/sections/Footer";
 
 export const metadata = {
-  // title: "Somital Aventuras",
-  // description:
-  //   "Empresa de turismo en mar del plata. Especializada en trekking, senderismo, mountain bike (mtb), y actividades al aire libre.",
   keywords:
-    "turismo aventura, Mar del Plata, trekking, senderismo, caminata, mountain bike, ciclismo, bici, bicileta, actividades al aire libre, excursiones, turismo costero, turismo sierras",
-  author: "Somital Aventuras",
+    "turismo aventura, Mar del Plata, trekking, senderismo, caminata, mountain bike, ciclismo, bici, Sierra de los Padres, Sierra los Difuntos",
+  author: "Somital",
   "google-site-verification": "fu978mignKAkmu0uVbqpawI7qVdGBpo3eWQDjQxhW_U",
 };
 

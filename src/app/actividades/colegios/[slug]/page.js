@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import activities from '@/data/activities.json';
+import activities from '@/data/activities-colegios.json';
 import HeroActivitySection from '../../_sections/HeroActivity.section';
 import ActivityInformationSection from '../../_sections/ActivityInformationSection.section';
 import OthersActivitiesSection from '../../_sections/OthersActivities.section';
