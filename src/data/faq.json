@@ -1,0 +1,34 @@
+[
+    {
+        "question": "¿Dónde está Somital Aventuras?",
+        "answer": "Estamos ubicados en Mar del Plata y realizamos actividades en distintas zonas naturales como Sierra de la Ventana, Sierra de los Difuntos y la Laguna de Mar Chiquita. También estamos abiertos a coordinar experiencias en nuevas ubicaciones."
+    },
+    {
+        "question": "¿Qué tipo de actividades realizan?",
+        "answer": "Ofrecemos actividades de aventura y contacto con la naturaleza: trekking, escalada, juegos de trabajo en equipo, programas educativos y experiencias de superación personal."
+    },
+    {
+        "question": "¿Ofrecen actividades solo para colegios?",
+        "answer": "No. Tenemos programas diseñados para colegios, empresas, familias y particulares que buscan experiencias en la naturaleza."
+    },
+    {
+        "question": "¿Puedo proponer una nueva ubicación?",
+        "answer": "Sí, estamos abiertos a escuchar nuevas propuestas y organizar salidas en otros entornos naturales cuando el grupo lo requiera."
+    },
+    {
+        "question": "¿Qué beneficios tienen las actividades?",
+        "answer": "Nuestros programas buscan que los participantes superen miedos, fortalezcan la confianza en sí mismos, aprendan a trabajar en equipo y disfruten de la naturaleza en un entorno seguro."
+    },
+    {
+        "question": "¿Realizan actividades fuera de Mar del Plata?",
+        "answer": "Sí, además de Mar del Plata realizamos actividades en Sierra de los Difuntos, Sierra de la Ventana y la Laguna de Mar Chiquita, entre otras zonas."
+    },
+    {
+        "question": "¿Qué debo llevar a las actividades?",
+        "answer": "Recomendamos llevar ropa cómoda, calzado deportivo, protector solar, gorro, agua y algo de comida. Para actividades específicas te enviaremos una lista detallada de lo necesario."
+    },
+    {
+        "question": "¿Qué pasa si llueve el día de la actividad?",
+        "answer": "Monitoreamos el clima constantemente. En caso de mal tiempo, reprogramaremos la actividad o te ofreceremos una fecha alternativa."
+    }
+]

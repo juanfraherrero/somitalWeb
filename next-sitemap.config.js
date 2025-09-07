@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://www.somitalaventuras.com.ar",
+  siteUrl: "https://www.somital.com.ar",
   generateRobotsTxt: true, // (optional)
   changefreq: "daily",
   priority: 0.7,

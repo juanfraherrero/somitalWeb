@@ -1,54 +1,52 @@
 [
-    {
-      "column": "Contacto",
-      "rows": [
-        {
-          "type": "whatsapp",
-          "icon":"/svgs/whatsapp-icon.svg",
-          "value": "+54 9 223 659-0000",
-          "link": "https://wa.me/5492236590000",
-          "target": "_blank"
-          
-        },
-        {
-          "type": "mail",
-          "icon":"/svgs/mail-icon.svg",
-          "value": "aventurassomital@gmail.com",
-          "link": "mailto:correo@example.com?subject=Consulta de ... &body=Escribe aquí tu consulta"
-        },
-        {
-          "type": "telefono",
-          "icon":"/svgs/phone-icon.svg",
-          "value": "+549 223 551-7063",
-          "link": "tel:+5492235517063"
-        },
-        {
-          "type": "lugar",
-          "icon":"/svgs/location-icon.svg",
-          "value": "Mar del Plata, Buenos Aires, Argentina",
-          "link": "https://www.google.com/maps?q=Mar+del+Plata,+Buenos+Aires,+Argentina",
-          "target": "_blank"
-        }
-      ]
-    },
-    {
-      "column": "Redes",
-      "rows": [
-        {
-          "type": "Instagram",
-          "icon":"/svgs/instagram-icon.svg",
-          "value": "https://www.instagram.com/somitalaventuras/",
-          "link": "https://www.instagram.com/somitalaventuras/",
-          "target": "_blank"
-        },
-        {
-          "type": "Facebook",
-          "icon":"/svgs/facebook-icon.svg",
-          "value": "https://www.facebook.com/somitalaventuras/",
-          "link": "https://www.facebook.com/somitalaventuras/",
-          "target": "_blank"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "column": "Contacto",
+    "rows": [
+      {
+        "type": "whatsapp",
+        "icon": "/svgs/whatsapp-icon.svg",
+        "value": "+54 9 223 659-0000",
+        "link": "https://wa.me/5492236590000",
+        "target": "_blank"
+      },
+      {
+        "type": "mail",
+        "icon": "/svgs/mail-icon.svg",
+        "value": "aventurassomital@gmail.com",
+        "link": "mailto:correo@example.com?subject=Consulta de ... &body=Escribe aquí tu consulta"
+      },
+      {
+        "type": "telefono",
+        "icon": "/svgs/phone-icon.svg",
+        "value": "+549 223 551-7063",
+        "link": "tel:+5492235517063"
+      },
+      {
+        "type": "lugar",
+        "icon": "/svgs/location-icon.svg",
+        "value": "Mar del Plata, Buenos Aires, Argentina",
+        "link": "https://www.google.com/maps?q=Mar+del+Plata,+Buenos+Aires,+Argentina",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "column": "Redes",
+    "rows": [
+      {
+        "type": "Instagram",
+        "icon": "/svgs/instagram-icon.svg",
+        "value": "https://www.instagram.com/somitalaventuras/",
+        "link": "https://www.instagram.com/somitalaventuras/",
+        "target": "_blank"
+      },
+      {
+        "type": "Facebook",
+        "icon": "/svgs/facebook-icon.svg",
+        "value": "https://www.facebook.com/somitalaventuras/",
+        "link": "https://www.facebook.com/somitalaventuras/",
+        "target": "_blank"
+      }
+    ]
+  }
+]

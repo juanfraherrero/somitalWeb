@@ -1,22 +1,26 @@
 [
-    {
-        "nombre": "Actividades", 
-        "href": "/actividades",
-        "toId" : false
-    },
-    {
-        "nombre": "Colegios", 
-        "href": "/colegios",
-        "toId" : false
-    },
-    {
-        "nombre": "Mapa", 
-        "href": "/#mapa",
-        "toId" : false
-    },
-    {
-        "nombre": "Contacto", 
-        "href": "#contacto",
-        "toId" : true
-    }
+	{
+		"key": "actividades",
+		"nombre": "Actividades",
+		"href": "/actividades",
+		"toId": false
+	},
+	{
+		"key": "colegios",
+		"nombre": "Colegios",
+		"href": "/colegios",
+		"toId": false
+	},
+	{
+		"key": "mapa",
+		"nombre": "Mapa",
+		"href": "/#mapa",
+		"toId": false
+	},
+	{
+		"key": "contacto",
+		"nombre": "Contacto",
+		"href": "#contacto",
+		"toId": true
+	}
 ]
