@@ -13,7 +13,7 @@
     "@heroicons/react": "2.2.0",
     "@react-google-maps/api": "2.20.7",
     "dotenv": "16.4.5",
-    "next": "15.4.6",
+    "next": "15.4.10",
     "next-sitemap": "4.2.3",
     "react": "19.1.1",
     "react-dom": "19.1.1",
