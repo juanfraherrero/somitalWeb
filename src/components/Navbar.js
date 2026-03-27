@@ -39,7 +39,7 @@ const Navbar = () => {
 
         {/* LOGO */}
         <Link href="/">
-          <Image src="/logo.svg" alt="Logo Somital" width={240} height={100} className="mr-4 w-[40vw] md:w-[240px] " />
+          <Image src="/logo.svg" alt="Logo Somital" width={40} height={40} className="mr-4  " />
         </Link>
 
         {/* LIST MENU FOR LAPTOP */}
