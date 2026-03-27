@@ -31,6 +31,19 @@ export default function RootLayout({ children }) {
           })(window,document,'script','dataLayer','GTM-TLLB3VT7');
         `}
       </Script>
+      {/* Google Ads Tag (gtag.js) */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-879179377"
+        strategy="afterInteractive"
+      />
+      <Script id="google-ads-gtag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-879179377');
+        `}
+      </Script>
       <body className={`${agrandir.variable} ${raleway.variable} ${chivo.variable} font-sans`}>
         <Navbar />
 
