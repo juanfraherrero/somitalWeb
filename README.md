@@ -4,6 +4,8 @@ Production website for an adventure tourism company in Mar del Plata, Argentina:
 
 **Live:** https://www.somital.com.ar
 
+[![Somital Aventuras home page](docs/screenshot.jpg)](https://www.somital.com.ar)
+
 ## Stack
 
 Next.js 15 (App Router) · React 19 · Tailwind CSS · Google Maps JavaScript API · Google Tag Manager · Vercel
