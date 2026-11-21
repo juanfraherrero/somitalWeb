@@ -24,6 +24,8 @@ export const metadata = {
     "trekking Sierra de los Padres",
     "salidas educativas colegios Mar del Plata",
     "excursiones para colegios",
+    "team building Mar del Plata",
+    "actividades para empresas Mar del Plata",
     "turismo aventura Mar del Plata",
     "mountain bike Mar del Plata",
     "parapente Mar del Plata",

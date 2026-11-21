@@ -11,6 +11,7 @@ const links = [
   { href: '/trekking-mar-del-plata', label: 'Trekking' },
   { href: '/actividades', label: 'Actividades' },
   { href: '/actividades/colegios', label: 'Colegios' },
+  { href: '/empresas', label: 'Empresas' },
   { href: '/comunidad', label: 'Comunidad' },
   { href: '#contacto', label: 'Contacto' },
 ];

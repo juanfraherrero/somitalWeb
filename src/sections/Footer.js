@@ -13,6 +13,7 @@ const exploreLinks = [
   { href: "/trekking-mar-del-plata", label: "Trekking en Mar del Plata" },
   { href: "/actividades", label: "Todas las actividades" },
   { href: "/actividades/colegios", label: "Salidas para colegios" },
+  { href: "/empresas", label: "Team building para empresas" },
   { href: "/comunidad", label: "Comunidad de WhatsApp" },
 ];
 

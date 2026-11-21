@@ -2,6 +2,7 @@ const PRIORITIES = {
   "/": 1.0,
   "/trekking-mar-del-plata": 0.9,
   "/actividades/colegios": 0.9,
+  "/empresas": 0.9,
   "/actividades": 0.8,
   "/comunidad": 0.8,
 };

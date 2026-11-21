@@ -22,6 +22,14 @@ const audiences = [
     alt: 'Alumnos de un colegio en una salida educativa a las sierras',
   },
   {
+    title: 'Team building para empresas',
+    text: 'Salidas para equipos de trabajo que quieren fortalecer la confianza y la unión. Elegís el destino y armamos la jornada con dinámicas para el equipo.',
+    href: '/empresas',
+    cta: 'Ver propuestas para empresas',
+    image: '/activities/trekkingSierras/medium/trekkingSierras_4.webp',
+    alt: 'Equipo de trabajo en una salida de trekking en las sierras',
+  },
+  {
     title: 'Comunidad de trekking',
     text: 'Sumate al grupo de WhatsApp donde avisamos primero las próximas salidas, compartimos recorridos y armamos grupos para caminar juntos.',
     href: '/comunidad',
@@ -33,15 +41,15 @@ const audiences = [
 
 const AudiencesSection = () => (
   <section className="container-site py-20 md:py-28">
-    <SectionHeading eyebrow="Elegí tu aventura" title="Salidas a pie para personas, grupos y colegios">
+    <SectionHeading eyebrow="Elegí tu aventura" title="Salidas a pie para personas, colegios y empresas">
       Desde {site.foundingYear} acercamos la naturaleza a todas las personas. Elegí cómo querés salir con nosotros.
     </SectionHeading>
 
-    <div className="mt-14 grid gap-6 md:grid-cols-3">
+    <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {audiences.map(({ title, text, href, cta, image, alt }) => (
         <Link key={href} href={href} className="group flex flex-col overflow-hidden rounded-3xl bg-surface transition hover:-translate-y-1 hover:shadow-xl">
           <div className="relative aspect-[16/10] overflow-hidden">
-            <Image src={image} alt={alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition duration-500 group-hover:scale-105" />
+            <Image src={image} alt={alt} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-cover transition duration-500 group-hover:scale-105" />
           </div>
           <div className="flex flex-1 flex-col p-6">
             <h3 className="my-heading3">{title}</h3>
