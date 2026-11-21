@@ -1,27 +1,31 @@
 [
     {
         "question": "¿Dónde está Somital Aventuras?",
-        "answer": "Estamos ubicados en Mar del Plata y realizamos actividades en distintas zonas naturales como Sierra de la Ventana, Sierra de los Difuntos y la Laguna de Mar Chiquita. También estamos abiertos a coordinar experiencias en nuevas ubicaciones."
+        "answer": "Estamos ubicados en Mar del Plata y realizamos actividades en distintas zonas naturales como las sierras de Mar del Plata, Sierra de los Padres, Sierra de la Ventana y la Laguna de Mar Chiquita. También estamos abiertos a coordinar experiencias en nuevas ubicaciones."
+    },
+    {
+        "question": "¿Dónde hacer trekking en Mar del Plata?",
+        "answer": "Las mejores opciones para hacer trekking y senderismo cerca de Mar del Plata son las sierras de la zona de Sierra de los Padres, la costa sur con sus acantilados y la Laguna de Mar Chiquita. En Somital organizamos salidas guiadas a todos estos lugares."
+    },
+    {
+        "question": "¿Necesito experiencia para hacer trekking con Somital?",
+        "answer": "No. Tenemos salidas para principiantes, familias y para quienes ya caminan seguido. Te contamos la dificultad y la duración de cada recorrido antes de salir para que elijas la que mejor te queda."
     },
     {
         "question": "¿Qué tipo de actividades realizan?",
-        "answer": "Ofrecemos actividades de aventura y contacto con la naturaleza: trekking, escalada, juegos de trabajo en equipo, programas educativos y experiencias de superación personal."
+        "answer": "Ofrecemos actividades de aventura y contacto con la naturaleza: trekking, senderismo, mountain bike, escalada, kayak, parapente, juegos de trabajo en equipo, programas educativos y experiencias de superación personal."
+    },
+    {
+        "question": "¿Organizan salidas educativas para colegios?",
+        "answer": "Sí. Desde 2005 acompañamos a escuelas primarias y secundarias con salidas educativas a las sierras, la playa, la Laguna de Mar Chiquita y viajes a Sierra de la Ventana. Adaptamos cada propuesta a la edad del grupo y a los contenidos que trabaja el docente."
     },
     {
         "question": "¿Ofrecen actividades solo para colegios?",
         "answer": "No. Tenemos programas diseñados para colegios, empresas, familias y particulares que buscan experiencias en la naturaleza."
     },
     {
-        "question": "¿Puedo proponer una nueva ubicación?",
-        "answer": "Sí, estamos abiertos a escuchar nuevas propuestas y organizar salidas en otros entornos naturales cuando el grupo lo requiera."
-    },
-    {
-        "question": "¿Qué beneficios tienen las actividades?",
-        "answer": "Nuestros programas buscan que los participantes superen miedos, fortalezcan la confianza en sí mismos, aprendan a trabajar en equipo y disfruten de la naturaleza en un entorno seguro."
-    },
-    {
-        "question": "¿Realizan actividades fuera de Mar del Plata?",
-        "answer": "Sí, además de Mar del Plata realizamos actividades en Sierra de los Difuntos, Sierra de la Ventana y la Laguna de Mar Chiquita, entre otras zonas."
+        "question": "¿Qué es la comunidad de Somital en WhatsApp?",
+        "answer": "Es un grupo abierto de personas que disfrutan del trekking y el aire libre en Mar del Plata. Ahí avisamos primero las próximas salidas, compartimos recomendaciones y armamos grupos para caminar juntos. Sumarse es gratis."
     },
     {
         "question": "¿Qué debo llevar a las actividades?",
@@ -30,5 +34,9 @@
     {
         "question": "¿Qué pasa si llueve el día de la actividad?",
         "answer": "Monitoreamos el clima constantemente. En caso de mal tiempo, reprogramaremos la actividad o te ofreceremos una fecha alternativa."
+    },
+    {
+        "question": "¿Puedo proponer una nueva ubicación?",
+        "answer": "Sí, estamos abiertos a escuchar nuevas propuestas y organizar salidas en otros entornos naturales cuando el grupo lo requiera."
     }
 ]

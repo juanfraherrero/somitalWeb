@@ -1,20 +1,20 @@
 [
   {
     "imageSrc": [
-      "/activities/rinconGrande/medium/rinconGrande_1.webp",
-      "/activities/rinconGrande/medium/rinconGrande_2.webp",
-      "/activities/rinconGrande/medium/rinconGrande_3.webp"
+      "/activities/trekkingSierras/medium/trekkingSierras_1.webp",
+      "/activities/trekkingSierras/medium/trekkingSierras_2.webp",
+      "/activities/trekkingSierras/medium/trekkingSierras_3.webp"
     ],
-    "imageThumbnail": "/activities/rinconGrande/small/rinconGrande_1.webp",
-    "slug": "/actividad-rincon-grande",
-    "name": "Rincon Grande",
+    "imageThumbnail": "/activities/trekkingSierras/small/trekkingSierras_1.webp",
+    "slug": "/trekking-en-sierras-de-mar-del-plata",
+    "name": "Trekking en las Sierras de Mar del Plata",
     "price": "$ A cotizar - Consultanos!",
     "chips": [
-      "Turismo Aventura",
+      "Trekking",
       "Senderismo",
+      "Turismo Aventura",
       "MTB",
-      "Escalada",
-      "Asado"
+      "Escalada"
     ],
     "details": [
       {
@@ -28,10 +28,10 @@
       {
         "label": "Location",
         "icon": "location",
-        "value": "Rincón Grande",
-        "lat": -37.88220165423163,
-        "lng": -57.868810008932755,
-        "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."
+        "value": "Sierras de Mar del Plata",
+        "lat": -37.9467,
+        "lng": -57.7781,
+        "description": "Trekking, senderismo, MTB (mountain bike) y escalada en las sierras."
       },
       {
         "label": "Tag",
@@ -46,58 +46,33 @@
     ],
     "description": [
       {
-        "title": "Explorá Rincón Grande: naturaleza y aventura cerca de Mar del Plata",
+        "title": "Trekking en las sierras: naturaleza y aventura cerca de Mar del Plata",
         "paragraphs": [
-          "Rincón Grande es el lugar perfecto para vivir una experiencia de turismo aventura en plena naturaleza. Ideal para quienes buscan actividades al aire libre cerca de Mar del Plata, esta estancia ofrece senderos, deportes y paisajes únicos."
+          "Las sierras que rodean Mar del Plata son el lugar perfecto para vivir una experiencia de turismo aventura en plena naturaleza. A pocos minutos de la ciudad recorremos senderos con vistas panorámicas, deportes al aire libre y paisajes únicos."
         ]
       },
       {
-        "title": "Senderismo y trekking en Rincón Grande",
+        "title": "Senderismo y trekking guiado",
         "paragraphs": [
-          "Contamos con 4 senderos autoguiados para caminatas y trekking, donde podés descubrir vistas panorámicas y sumergirte en la tranquilidad de la naturaleza. Es una opción ideal para principiantes y aficionados al senderismo."
+          "Recorremos senderos de distintas dificultades para caminatas y trekking, donde podés descubrir vistas panorámicas y sumergirte en la tranquilidad de la naturaleza. Es una opción ideal para principiantes y aficionados al senderismo, siempre acompañados por guías de Somital."
         ]
       },
       {
         "title": "Mountain Bike y escalada",
         "paragraphs": [
-          "Si preferís la adrenalina, Rincón Grande también ofrece un circuito de MTB (mountain bike) y más de 200 vías de escalada. Desde rutas para principiantes hasta desafíos para expertos, este destino es ideal para deportes de aventura en Mar del Plata."
+          "Si preferís la adrenalina, sumamos circuitos de MTB (mountain bike) y escalada en roca. Desde propuestas para principiantes hasta desafíos para quienes ya tienen experiencia: un plan ideal para deportes de aventura en Mar del Plata."
         ]
       },
       {
         "title": "Camping agreste y fogones",
         "paragraphs": [
-          "Viví la experiencia completa quedándote en el camping agreste bajo las estrellas. El predio cuenta con baño seco, agua potable, fogones y mesas para disfrutar de una noche al aire libre en compañía de amigos o familia."
+          "Consultanos por salidas con noche de camping agreste bajo las estrellas, fogón y comida compartida para disfrutar del aire libre en compañía de amigos o familia."
         ]
       }
     ],
     "seo": {
-      "title": "Rincón Grande | Trekking, MTB y Escalada en Mar del Plata",
-      "description": "Viví la aventura en Rincón Grande: trekking, mountain bike, escalada y camping agreste a minutos de Mar del Plata. Ideal para grupos, colegios y familias.",
-      "canonical": "https://www.somital.com.ar/actividad-rincon-grande",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "TouristAttraction",
-        "name": "Rincón Grande | Trekking, MTB y Escalada",
-        "description": "Viví la aventura en Rincón Grande: trekking, mountain bike, escalada y camping agreste a minutos de Mar del Plata. Ideal para grupos, colegios y familias.",
-        "url": "https://www.somital.com.ar/actividad-rincon-grande",
-        "image": "https://www.somital.com.ar/images/rincon-grande.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Mar del Plata, Buenos Aires, Argentina"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
+      "title": "Trekking en las Sierras de Mar del Plata | Senderismo, MTB y Escalada",
+      "description": "Trekking y senderismo guiado en las sierras de Mar del Plata: caminatas para todos los niveles, mountain bike y escalada a minutos de la ciudad. Grupos, familias y colegios."
     }
   },
   {
@@ -118,7 +93,7 @@
     "chips": [
       "Parapente",
       "Turismo Aventura",
-      "Sierra Difuntos"
+      "Sierras de Mar del Plata"
     ],
     "details": [
       {
@@ -137,10 +112,10 @@
       {
         "label": "Location",
         "icon": "location",
-        "value": "Sierra de Los Difuntos",
-        "lat": -38.13402951173797,
-        "lng": -61.783936159129176,
-        "description": "Agregar palabras claves de actividades en SIERRA DIFUNTOS"
+        "value": "Sierras y costa de Mar del Plata",
+        "lat": -37.9467,
+        "lng": -57.7781,
+        "description": "Vuelos de bautismo en parapente sobre las sierras y acantilados de Mar del Plata."
       },
       {
         "label": "Tag",
@@ -155,7 +130,7 @@
     ],
     "description": [
       {
-        "title": "Vivir la experiencia de volar en parapente en Sierra de los Difuntos",
+        "title": "Vivir la experiencia de volar en parapente en Mar del Plata",
         "paragraphs": [
           "Descubrí la emoción del vuelo en parapente sobre las sierras y acantilados de Mar del Plata, una de las actividades de turismo aventura más buscadas en la región.",
           "Nuestros vuelos tienen una duración aproximada de 20 a 30 minutos y no requieren experiencia previa ni entrenamiento físico."
@@ -178,32 +153,7 @@
     ],
     "seo": {
       "title": "Vuelo en Parapente en Mar del Plata | Aventura Segura y Única",
-      "description": "Experimentá la emoción de volar en parapente sobre las sierras de Mar del Plata. Actividad segura, con fotos y videos incluidos. ¡Una experiencia inolvidable!",
-      "canonical": "https://www.somital.com.ar/vuelo-en-parapente",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "TouristAttraction",
-        "name": "Vuelo en Parapente en Mar del Plata",
-        "description": "Experimentá la emoción de volar en parapente sobre las sierras de Mar del Plata. Actividad segura, con fotos y videos incluidos.",
-        "url": "https://www.somital.com.ar/vuelo-en-parapente",
-        "image": "https://www.somital.com.ar/images/parapente.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Mar del Plata, Buenos Aires, Argentina"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
+      "description": "Experimentá la emoción de volar en parapente sobre las sierras de Mar del Plata. Actividad segura, con fotos y videos incluidos. ¡Una experiencia inolvidable!"
     }
   }
 ]

@@ -2,162 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Animations */
-@keyframes logoSlideUp {
-  from {
-    transform: translateY(0);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(-50px);
-    opacity: 1;
-  }
-}
-
-@keyframes textSlideDown {
-  from {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideOutLeft {
-  from {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  to {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-}
-
-@keyframes blurIn {
-  from {
-    backdrop-filter: blur(0);
-    opacity: 0.8;
-  }
-
-  to {
-    backdrop-filter: blur(8px);
-    opacity: 1;
-  }
-}
-
-
-/* New animations for About section */
-@keyframes slide-up {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-left {
-  from {
-    transform: translateX(-50px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-right {
-  from {
-    transform: translateX(50px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.animate-slide-up {
-  animation: slide-up 0.6s ease-out forwards;
-}
-
-.animate-slide-in-left {
-  animation: slide-in-left 0.6s ease-out 0.2s forwards;
-}
-
-.animate-slide-in-right {
-  animation: slide-in-right 0.6s ease-out 0.4s forwards;
-}
-
-.text-fluid {
-  font-size: clamp(1.5rem, 5vw, 3rem);
-}
-
-.animate-logo-slide-up {
-  animation: logoSlideUp 1s ease-out forwards;
-  opacity: 0;
-}
-
-.animate-text-slide-down {
-  animation: textSlideDown 1s ease-out 0.5s forwards;
-  opacity: 0;
-}
-
-.animate-fade-in {
-  animation: fadeIn 1s ease-out 1s forwards;
-  opacity: 0;
-}
-
-.animate-blur-in {
-  animation: blurIn 2s ease-in-out forwards;
-  backdrop-filter: blur(8px);
-}
-
-.slide-in-left {
-  animation: slideInLeft 0.3s ease-out forwards;
-}
-
-.slide-out-left {
-  animation: slideOutLeft 0.3s ease-out forwards;
-}
-
 :root {
-  /* Base colors - Keep existing color variables for backward compatibility */
-
   /* --color-main-red: #c73420; */
   --color-main-red: 7.186 72.3% 45.3%;
   /* --color-storm-gray: #2d2d2d; */
@@ -192,47 +37,69 @@
 
   --accent: var(--color-rock-gray);
   --accent-foreground: var(--color-snow-white);
-
-  /* Gradients */
-  --gradient-storm-to-rock: linear-gradient(45deg,
-      hsl(var(--color-storm-gray)) 0%,
-      hsl(var(--color-rock-gray)) 100%);
-
-  --gradient-primary: linear-gradient(45deg,
-      hsl(var(--primary)) 0%,
-      hsl(var(--primary-foreground)) 100%);
-
-  /* --font-family: "Quicksand",Sans-serif; */
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 @layer base {
-  * {
-    /* @apply border-border; */
+  html {
+    @apply bg-background text-foreground scroll-smooth;
   }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    /* background-color: var(--background);
-    color: var(--foreground); */
   }
 
-  html {
-    @apply bg-background text-foreground;
+  h1, h2, h3 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .eyebrow {
+    @apply inline-block text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-primary;
   }
 
   .my-heading2 {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-secondary text-center
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-bold text-secondary leading-tight;
   }
 
   .my-heading3 {
-    @apply text-2xl md:text-3xl lg:text-4xl font-bold text-secondary text-center
+    @apply font-display text-2xl md:text-3xl font-bold text-secondary leading-snug;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/30;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-primary-foreground hover:bg-primary/90 hover:-translate-y-0.5 shadow-lg shadow-primary/20;
+  }
+
+  .btn-whatsapp {
+    @apply btn bg-primary text-primary-foreground hover:bg-primary/90 hover:-translate-y-0.5 shadow-lg shadow-primary/20;
+  }
+
+  .btn-ghost {
+    @apply btn border-2 border-current hover:bg-white/10;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-bold text-primary;
+  }
+
+  /* Contorno topográfico decorativo para fondos de sección */
+  .topo-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='0 0 600 600'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.07' stroke-width='1.5'%3E%3Cpath d='M-50 420C80 360 160 470 300 400S520 300 650 360'/%3E%3Cpath d='M-50 380C90 320 170 430 300 360S510 260 650 320'/%3E%3Cpath d='M-50 340C100 280 180 390 300 320S500 220 650 280'/%3E%3Cpath d='M-50 300C110 240 190 350 300 280S490 180 650 240'/%3E%3Cpath d='M-50 260C120 200 200 310 300 240S480 140 650 200'/%3E%3Cpath d='M-50 220C130 160 210 270 300 200S470 100 650 160'/%3E%3Cpath d='M-50 460C70 400 150 510 300 440S530 340 650 400'/%3E%3Cpath d='M-50 500C60 440 140 550 300 480S540 380 650 440'/%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

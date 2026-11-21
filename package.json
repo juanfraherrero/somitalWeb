@@ -17,9 +17,7 @@
     "next-sitemap": "4.2.3",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "react-intersection-observer": "9.16.0",
-    "react-slick": "0.30.3",
-    "slick-carousel": "1.8.1"
+    "react-intersection-observer": "9.16.0"
   },
   "devDependencies": {
     "autoprefixer": "10.4.19",

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { whatsappLink } from "@/lib/whatsapp";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -36,11 +37,11 @@ const ContactForm = () => {
     // Construir el mensaje a enviar por WhatsApp
     const wtpMessage = `Hola buenas soy ${firstName} ${lastName}:\n ${content}`;
 
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: "whatsapp_click", label: "formulario_footer" });
+
     // Redireccionar al usuario a WhatsApp con el mensaje predefinido
-    window.open(
-      `https://wa.me/${process.env.NEXT_PUBLIC_WTP_NUMBER}?text=${wtpMessage}`,
-      "_blank"
-    );
+    window.open(whatsappLink(wtpMessage), "_blank");
 
     // Limpiar los valores después del envío
     setFormData({
@@ -59,7 +60,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full mx-auto rounded font-bold">
+    <form onSubmit={handleSubmit} className="w-full text-sm font-bold text-white">
       <div className="mb-4">
         <label htmlFor="firstName" className="block mb-1 ">
           Nombre*
@@ -72,11 +73,11 @@ const ContactForm = () => {
           onChange={handleChange}
           onBlur={() => handleBlur("firstName")}
           required
-          className={`w-full rounded border-foreground border-2 text-black font-normal ${errors.firstName ? "border-red-500" : "focus:ring-indigo-500"
+          className={`w-full rounded border-0 bg-white/95 px-3 py-2 text-foreground font-normal focus:outline-none focus:ring-2 ${errors.firstName ? "ring-2 ring-red-400" : "focus:ring-primary"
             }`}
         />
         {errors.firstName && (
-          <p className="text-red-500 text-xs mt-1">Nombre es requerido</p>
+          <p className="text-red-300 text-xs mt-1">Nombre es requerido</p>
         )}
       </div>
       <div className="mb-4">
@@ -91,16 +92,16 @@ const ContactForm = () => {
           onChange={handleChange}
           onBlur={() => handleBlur("lastName")}
           required
-          className={`w-full rounded border-foreground border-2 text-black font-normal ${errors.lastName ? "border-red-500" : "focus:ring-indigo-500"
+          className={`w-full rounded border-0 bg-white/95 px-3 py-2 text-foreground font-normal focus:outline-none focus:ring-2 ${errors.lastName ? "ring-2 ring-red-400" : "focus:ring-primary"
             }`}
         />
         {errors.lastName && (
-          <p className="text-red-500 text-xs mt-1">Apellido es requerido</p>
+          <p className="text-red-300 text-xs mt-1">Apellido es requerido</p>
         )}
       </div>
       <div className="mb-4">
         <label htmlFor="content" className="block mb-1">
-          Contenido o Pregunta*
+          Tu consulta*
         </label>
         <textarea
           id="content"
@@ -110,18 +111,18 @@ const ContactForm = () => {
           onBlur={() => handleBlur("content")}
           rows="4"
           required
-          className={`w-full rounded border-foreground border-2 text-black font-normal ${errors.content ? "border-red-500" : "focus:ring-indigo-500"
+          className={`w-full rounded border-0 bg-white/95 px-3 py-2 text-foreground font-normal focus:outline-none focus:ring-2 ${errors.content ? "ring-2 ring-red-400" : "focus:ring-primary"
             }`}
         ></textarea>
         {errors.content && (
-          <p className="text-red-500 text-xs mt-1">Mensaje es requerido</p>
+          <p className="text-red-300 text-xs mt-1">Mensaje es requerido</p>
         )}
       </div>
       <button
         type="submit"
-        className="bg-primary text-background font-bold py-2 px-4 rounded hover:bg-primary/80 transition duration-300"
+        className="btn-whatsapp w-full"
       >
-        Enviar
+        Enviar por WhatsApp
       </button>
     </form>
   );

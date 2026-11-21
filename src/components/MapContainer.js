@@ -10,13 +10,14 @@ const MapContainer = ({ locations }) => {
     });
 
     const mapStyles = {
-        height: '75vh',
-        width: '90%',
+        height: '100%',
+        minHeight: '420px',
+        width: '100%',
     };
 
     const defaultCenter = {
-        lat: -37.97896194458008,
-        lng: -57.584495544433594,
+        lat: -37.95,
+        lng: -57.70,
     };
 
     const customMarkerIcon = {
@@ -29,12 +30,12 @@ const MapContainer = ({ locations }) => {
         anchor: { x: 12, y: 24 }
     };
 
-    if (!isLoaded) return <p>Cargando mapa...</p>;
+    if (!isLoaded) return <p className="p-6 text-secondary/80">Cargando mapa...</p>;
 
     return (
         <GoogleMap
             mapContainerStyle={mapStyles}
-            zoom={10}
+            zoom={9}
             center={defaultCenter}
         >
             {locations.map((item, index) => (

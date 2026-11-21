@@ -1,67 +1,59 @@
-import Image from 'next/image';
+import MapContainer from '@/components/MapContainer';
+import SectionHeading from '@/components/SectionHeading';
+import locations from "@/data/locationsHome.json";
+
+const places = [
+  {
+    icon: '🏔️',
+    name: 'Sierras de Mar del Plata y Sierra de los Padres',
+    text: 'A minutos de la ciudad: el lugar ideal para trekking, senderismo, mountain bike y escalada.',
+  },
+  {
+    icon: '🌊',
+    name: 'Costa sur y acantilados',
+    text: 'Caminatas frente al mar, trekking de playa y experiencias educativas en el Bosque Energético.',
+  },
+  {
+    icon: '🦩',
+    name: 'Laguna de Mar Chiquita',
+    text: 'Perfecta para kayak, stand up paddle, senderismo y avistaje de aves.',
+  },
+  {
+    icon: '🏞️',
+    name: 'Sierra de la Ventana',
+    text: 'Uno de los clásicos destinos de aventura de la provincia de Buenos Aires, ideal para viajes educativos.',
+  },
+];
 
 const LocationSection = () => {
-    return (
-        <section
-            className="max-w-7xl mx-auto flex flex-wrap justify-center mt-16 px-6 "
-        >
+  return (
+    <section id="mapa" className="bg-surface py-20 md:py-28">
+      <div className="container-site">
+        <SectionHeading eyebrow="Dónde salimos" title="Lugares para hacer trekking cerca de Mar del Plata">
+          Trabajamos principalmente en Mar del Plata y sus sierras, y también organizamos excursiones a la
+          Laguna de Mar Chiquita y Sierra de la Ventana. Estamos abiertos a nuevas propuestas para llevar
+          nuestras actividades a más destinos.
+        </SectionHeading>
 
-            <div className="text-center">
-                <h2 className="my-heading2 mb-4">
-                    Ubicaciones y zonas donde trabajamos en Somital
-                </h2>
-                <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
-                <p className="max-w-4xl text-left mx-auto text-lg text-secondary">
-                    Trabajamos principalmente en Mar del Plata, pero también realizamos excursiones en la Sierra de los Difuntos, Sierra de la Ventana y la Laguna de Mar Chiquita.
-                    <br className='mb-2' />
-                    Estamos abiertos a nuevas propuestas para llevar nuestras actividades a más destinos.
-                    <br className='mb-2' />
-                    Nos especializamos en organizar trekking, escalada, y camping en áreas naturales, siempre con la seguridad y profesionalismo que nos caracteriza.
-                </p>
-            </div>
-
-            <div className="text-center mt-8">
-                <h3 className="my-heading3 mb-4">
-                    Principales ubicaciones
-                    de nuestras actividades
-                </h3>
-                <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
-
-                <ul className="max-w-4xl text-left mx-auto text-lg text-secondary">
-                    <li className="flex items-start">
-                        <span className="text-2xl mr-3">🏔️</span>
-                        <div className='text-left'>
-                            <strong className="font-semibold">Sierra de los Difuntos</strong> – ideal para trekking y escalada, con paisajes naturales únicos.
-                        </div>
-                    </li>
-                    <li className="flex items-start mt-4">
-                        <span className="text-2xl mr-3">🏞️</span>
-                        <div className='text-left'>
-                            <strong className="font-semibold">Sierra de la Ventana</strong> – uno de los clásicos destinos de aventura en la provincia de Buenos Aires.
-                        </div>
-                    </li>
-                    <li className="flex items-start mt-4">
-                        <span className="text-2xl mr-3">🌊</span>
-                        <div className='text-left'>
-                            <strong className="font-semibold">Laguna de Mar Chiquita</strong> – perfecta para actividades acuáticas, camping y experiencias al aire libre.
-                        </div>
-                    </li>
-                    <li className="flex items-start mt-4">
-                        <span className="text-2xl mr-3">🌄</span>
-                        <div className='text-left'>
-                            <strong className="font-semibold">Sierra de los Padres</strong> – alternativa cercana a Mar del Plata, muy elegida por quienes buscan naturaleza sin alejarse demasiado.
-                        </div>
-                    </li>
-                    <li className="flex items-start mt-4">
-                        <span className="text-2xl mr-3">📍</span>
-                        <div className='text-left'>
-                            <span className="font-semibold">Otras ubicaciones</span> – En somital estamos abiertos a escuchar nuevas propuestas para llevar nuestras actividades a más destinos.
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    );
+        <div className="mt-14 grid gap-8 lg:grid-cols-5">
+          <ul className="space-y-4 lg:col-span-2">
+            {places.map(({ icon, name, text }) => (
+              <li key={name} className="flex gap-4 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-secondary/10">
+                <span className="text-3xl" aria-hidden="true">{icon}</span>
+                <div>
+                  <h3 className="font-display text-lg font-bold text-secondary">{name}</h3>
+                  <p className="mt-1 text-secondary/80">{text}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div className="min-h-[420px] overflow-hidden rounded-3xl shadow-sm ring-1 ring-secondary/10 lg:col-span-3">
+            <MapContainer locations={locations} />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default LocationSection;

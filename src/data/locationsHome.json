@@ -1,5 +1,6 @@
 [
-    { "lat": -37.88220165423163, "lng": -57.868810008932755, "name": "Rincon Grande", "description": "Trekking, Mountaing Bike, Senderismo."},
-    { "lat": -37.7369515298438, "lng": -57.421912012905146, "name": "Laguna Mar Chiquita", "description": "Kayak, Senderismo."},
-    { "lat": -38.15, "lng": -61.8, "name": "Sierra la Ventana", "description": "Trekking, juegos recreativos."}
+    { "lat": -37.9467, "lng": -57.7781, "name": "Sierras de Mar del Plata", "description": "Trekking, mountain bike, senderismo y escalada."},
+    { "lat": -38.29319704638621, "lng": -57.87391162953653, "name": "Costa sur y Bosque Energético", "description": "Trekking de playa, orientación y sandboard."},
+    { "lat": -37.7369515298438, "lng": -57.421912012905146, "name": "Laguna Mar Chiquita", "description": "Kayak, senderismo y avistaje de aves."},
+    { "lat": -38.15, "lng": -61.8, "name": "Sierra de la Ventana", "description": "Trekking, juegos recreativos."}
 ]

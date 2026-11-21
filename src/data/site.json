@@ -1,0 +1,18 @@
+{
+  "name": "Somital Aventuras",
+  "shortName": "Somital",
+  "url": "https://www.somital.com.ar",
+  "foundingYear": 2005,
+  "email": "aventurassomital@gmail.com",
+  "phone": "+5492235517063",
+  "phoneDisplay": "+54 9 223 551-7063",
+  "whatsappNumber": "5492236590000",
+  "whatsappDisplay": "+54 9 223 659-0000",
+  "whatsappCommunityUrl": "https://chat.whatsapp.com/GIoeDRv9DKcD47t98UWuDw?mode=gi_t",
+  "instagram": "https://www.instagram.com/somitalaventuras/",
+  "facebook": "https://www.facebook.com/somitalaventuras/",
+  "city": "Mar del Plata",
+  "region": "Buenos Aires",
+  "country": "AR",
+  "geo": { "lat": -38.0054771, "lng": -57.5426106 }
+}

@@ -1,25 +1,35 @@
-import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import activities from "@/data/activities.json";
 import activities_colegios from "@/data/activities-colegios.json";
-import { INSTITUCION } from '@/types/activity.type';
-const CarouselActivities = dynamic(() => import("../components/CarouselActivities"));
+import ActivityCard from '@/components/ActivityCard';
+import SectionHeading from '@/components/SectionHeading';
 
-export const ACTIVITIES_CAROUSEL = "actividades-carousel"
+export const ACTIVITIES_SECTION = "actividades"
 
 const ActivitiesSection = () => {
   return (
-    <section id={ACTIVITIES_CAROUSEL} className="max-w-7xl mx-auto flex flex-wrap justify-center mt-16 px-6">
-      <div className="w-full ">
-        <h2 className="my-heading2 mb-4 text-center">
-          Actividades en Mar del Plata
-        </h2>
-        <div className="w-20 h-1 bg-secondary mx-auto mb-8 "></div>
-        <p className="max-w-4xl mx-auto text-lg text-secondary mb-3">
-          En Somital ofrecemos salidas en contacto directo con la naturaleza.
-          Cada experiencia se adapta a grupos de colegios, familias, turistas y amantes del aire libre.
-        </p>
+    <section id={ACTIVITIES_SECTION} className="bg-surface py-20 md:py-28">
+      <div className="container-site">
+        <SectionHeading eyebrow="Próximas aventuras" title="Actividades en Mar del Plata y alrededores">
+          Salidas en contacto directo con la naturaleza: trekking en las sierras, caminatas por la costa,
+          kayak en la laguna y viajes educativos. Cada experiencia se adapta a colegios, familias, turistas
+          y amantes del aire libre.
+        </SectionHeading>
+
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {activities.map((activity) => (
+            <ActivityCard key={activity.slug} activity={activity} />
+          ))}
+          {activities_colegios.map((activity) => (
+            <ActivityCard key={activity.slug} activity={activity} isColegio />
+          ))}
+        </div>
+
+        <div className="mt-12 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <Link href="/actividades" className="btn-primary">Ver todas las actividades</Link>
+          <Link href="/actividades/colegios" className="btn-ghost text-secondary">Actividades para colegios</Link>
+        </div>
       </div>
-      <CarouselActivities activities={[...activities.filter(act => act.slug !== "/actividad-rincon-grande"), ...activities_colegios.map(act => { return { ...act, type: INSTITUCION } })]} />
     </section>
   );
 };

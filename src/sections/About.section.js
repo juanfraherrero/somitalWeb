@@ -1,92 +1,66 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import site from '@/data/site.json';
+
+const team = [
+  {
+    name: 'Alfredo',
+    image: '/alfredo.jpg',
+    role: 'Guía de alta montaña y profesor de biología',
+    text: 'Apasionado de la montaña, la naturaleza y la educación, combina la técnica y el conocimiento científico para que cada experiencia sea segura y enriquecedora.',
+  },
+  {
+    name: 'Claudia',
+    image: '/claudia.jpg',
+    role: 'Profesora de educación física y especialista en recreación',
+    text: 'Su energía y calidez hacen que cada salida sea dinámica y divertida. Su objetivo es que cada persona descubra de lo que es capaz a través del movimiento y el juego.',
+  },
+];
 
 const AboutSection = () => {
   return (
-    <section
-      className="max-w-7xl mx-auto flex flex-wrap justify-center mt-16 px-6"
-    >
-      <div className="text-center">
-        <h2 className="my-heading2 mb-4">
-          Quiénes Somos
-        </h2>
-        <div className="w-20 h-1 bg-secondary mx-auto mb-8 "></div>
-        <p className="max-w-4xl text-left mx-auto text-lg text-secondary">
-          Somos Alfredo y Claudia, y desde 2005 damos vida a Somital con un propósito: acercar la naturaleza y la aventura a todas las personas.
-          <br className='mb-2' />
-          Nuestros comienzos fueron con salidas educativas junto a colegios, experiencias que nos mostraron la fuerza transformadora de la montaña: chicos y chicas que superaban miedos, ganaban confianza y descubrían sus capacidades en contacto directo con la naturaleza.
-          <br className='mb-2' />
-          Hoy mantenemos intacta esa pasión. Diseñamos experiencias de turismo aventura donde se combinan profesionalismo, seguridad y emoción, para que cada salida no sea solo un recorrido, sino un momento de aprendizaje, disfrute y conexión profunda con la naturaleza.
-        </p>
-      </div>
-
-      <div className="text-center mt-12">
-        <h2 className="my-heading2 mb-4">
-          Nuestro Equipo
-        </h2>
-        <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
-
-        {/* Team Members Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-6xl mx-auto px-4">
-          {/* Team Member 1 - Alfredo */}
-          <div className="flex flex-col lg:flex-row items-center gap-6">
-            <div className="relative w-48 h-48 lg:w-60 lg:h-60 rounded overflow-hidden border-4 border-muted bg-muted flex-shrink-0">
-              <Image
-                src="/alfredo.jpg"
-                alt="Alfredo"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-muted/60 text-primary-foreground py-2 text-center">
-                <h3 className="font-bold text-lg">Alfredo</h3>
-              </div>
-            </div>
-            <div className="text-left">
-              <p className="text-lg font-semibold text-secondary mb-2">Guía de alta montaña y profesor de biología </p>
-              <p className="text-secondary">
-                Apasionado de la montaña, la naturaleza y la educación, combina la técnica y el conocimiento científico para que cada experiencia sea segura y enriquecedora.
-              </p>
-            </div>
+    <section id="nosotros" className="container-site py-20 md:py-28">
+      <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+        <div>
+          <span className="eyebrow">Quiénes somos</span>
+          <h2 className="my-heading2 mt-3">Guías de Mar del Plata, educadores y amantes de la montaña</h2>
+          <div className="mt-6 space-y-4 text-lg text-secondary/80">
+            <p>
+              Somos Alfredo y Claudia, y desde {site.foundingYear} damos vida a Somital con un propósito:
+              acercar la naturaleza y la aventura a todas las personas.
+            </p>
+            <p>
+              Nuestros comienzos fueron con salidas educativas junto a colegios, experiencias que nos mostraron
+              la fuerza transformadora de la montaña: chicos y chicas que superaban miedos, ganaban confianza y
+              descubrían sus capacidades en contacto directo con la naturaleza.
+            </p>
+            <p>
+              Hoy mantenemos intacta esa pasión. Diseñamos experiencias de turismo aventura donde se combinan
+              profesionalismo, seguridad y emoción, para que cada salida no sea solo un recorrido, sino un momento
+              de aprendizaje, disfrute y conexión profunda con la naturaleza.
+            </p>
           </div>
 
-          {/* Team Member 2 - Claudia */}
-          <div className="flex flex-col lg:flex-row items-center gap-6">
-            <div className="relative w-48 h-48 lg:w-60 lg:h-60 rounded overflow-hidden border-4 border-muted bg-muted flex-shrink-0">
-              <Image
-                src="/claudia.jpg"
-                alt="Alfredo"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-muted/60 text-primary-foreground py-2 text-center">
-                <h3 className="font-bold text-lg">Claudia</h3>
-              </div>
-            </div>
-            <div className="text-left">
-              <p className="text-lg font-semibold text-secondary mb-2">Profesora de educación física y especialista en recreación</p>
-              <p className="text-secondary">
-                Su energía y calidez hacen que cada salida sea dinámica y divertida. Su objetivo es que cada persona descubra de lo que es capaz a través del movimiento y el juego.
-              </p>
-            </div>
-          </div>
+          <blockquote className="mt-8 rounded-2xl border-l-4 border-primary bg-surface p-6">
+            <p className="font-display text-xl font-bold text-secondary md:text-2xl">
+              &ldquo;Crear experiencias donde las personas puedan conectar con el entorno natural, superar sus miedos y descubrir nuevas fortalezas.&rdquo;
+            </p>
+            <footer className="mt-3 text-sm font-bold uppercase tracking-widest text-primary">Nuestra visión</footer>
+          </blockquote>
         </div>
-      </div>
 
-      <div className="text-center mt-12">
-        <h2 className="my-heading2 mb-4">
-          Nuestra Visión
-        </h2>
-        <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
-        <div className="relative max-w-4xl mx-auto px-8 py-6 bg-background/50 rounded-lg border-l-4 border-primary">
-          <p className="text-lg italic text-secondary/90 leading-relaxed mb-4">
-            Nuestra visión en Somital es clara
-          </p>
-          <p className="text-2xl md:text-3xl font-medium text-secondary leading-normal mb-6">
-&ldquo;Crear experiencias donde las personas puedan conectar con el entorno natural, superar sus miedos y descubrir nuevas fortalezas.&rdquo;
-          </p>
-          <p className="text-lg text-secondary/90 leading-relaxed">
-            Queremos que cada salida sea más que una excursión: una experiencia única de crecimiento personal y colectivo, donde quienes nos elijan descubran que la verdadera aventura también está dentro de ellos.
-          </p>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+          {team.map(({ name, image, role, text }) => (
+            <article key={name} className="overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-secondary/10">
+              <div className="relative aspect-square">
+                <Image src={image} alt={`${name}, ${role.toLowerCase()} en Somital`} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+              </div>
+              <div className="p-6">
+                <h3 className="font-display text-2xl font-bold text-secondary">{name}</h3>
+                <p className="mt-1 font-bold text-primary">{role}</p>
+                <p className="mt-3 text-secondary/80">{text}</p>
+              </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>

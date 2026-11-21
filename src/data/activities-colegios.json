@@ -1,107 +1,6 @@
 [
   {
     "imageSrc": [
-      "/activities/rinconGrande/medium/rinconGrande_1.webp",
-      "/activities/rinconGrande/medium/rinconGrande_2.webp",
-      "/activities/rinconGrande/medium/rinconGrande_3.webp"
-    ],
-    "imageThumbnail": "/activities/rinconGrande/small/rinconGrande_1.webp",
-    "slug": "/actividad-rincon-grande",
-    "name": "Rincon Grande",
-    "price": "$ A cotizar - Consultanos!",
-    "chips": [
-      "Turismo Aventura",
-      "Senderismo",
-      "MTB",
-      "Escalada",
-      "Asado"
-    ],
-    "details": [
-      {
-        "label": "Date",
-        "icon": "calendar",
-        "value": [
-          "sa",
-          "do"
-        ]
-      },
-      {
-        "label": "Location",
-        "icon": "location",
-        "value": "Rincón Grande",
-        "lat": -37.88220165423163,
-        "lng": -57.868810008932755,
-        "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."
-      },
-      {
-        "label": "Tag",
-        "icon": "tag",
-        "value": "Turismo Aventura"
-      },
-      {
-        "label": "Time",
-        "icon": "time",
-        "value": "10 hs"
-      }
-    ],
-    "description": [
-      {
-        "title": "Explorá Rincón Grande: naturaleza y aventura cerca de Mar del Plata",
-        "paragraphs": [
-          "Rincón Grande es el lugar perfecto para vivir una experiencia de turismo aventura en plena naturaleza. Ideal para quienes buscan actividades al aire libre cerca de Mar del Plata, esta estancia ofrece senderos, deportes y paisajes únicos."
-        ]
-      },
-      {
-        "title": "Senderismo y trekking en Rincón Grande",
-        "paragraphs": [
-          "Contamos con 4 senderos autoguiados para caminatas y trekking, donde podés descubrir vistas panorámicas y sumergirte en la tranquilidad de la naturaleza. Es una opción ideal para principiantes y aficionados al senderismo."
-        ]
-      },
-      {
-        "title": "Mountain Bike y escalada",
-        "paragraphs": [
-          "Si preferís la adrenalina, Rincón Grande también ofrece un circuito de MTB (mountain bike) y más de 200 vías de escalada. Desde rutas para principiantes hasta desafíos para expertos, este destino es ideal para deportes de aventura en Mar del Plata."
-        ]
-      },
-      {
-        "title": "Camping agreste y fogones",
-        "paragraphs": [
-          "Viví la experiencia completa quedándote en el camping agreste bajo las estrellas. El predio cuenta con baño seco, agua potable, fogones y mesas para disfrutar de una noche al aire libre en compañía de amigos o familia."
-        ]
-      }
-    ],
-    "seo": {
-      "title": "Rincón Grande | Trekking, MTB y Escalada en Mar del Plata",
-      "description": "Viví la aventura en Rincón Grande: trekking, mountain bike, escalada y camping agreste a minutos de Mar del Plata. Ideal para grupos, colegios y familias.",
-      "canonical": "https://www.somital.com.ar/actividad-rincon-grande",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "TouristAttraction",
-        "name": "Rincón Grande | Trekking, MTB y Escalada",
-        "description": "Viví la aventura en Rincón Grande: trekking, mountain bike, escalada y camping agreste a minutos de Mar del Plata. Ideal para grupos, colegios y familias.",
-        "url": "https://www.somital.com.ar/actividad-rincon-grande",
-        "image": "https://www.somital.com.ar/images/rincon-grande.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Mar del Plata, Buenos Aires, Argentina"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
-    }
-  },
-  {
-    "imageSrc": [
       "/activities/sierraVentana/medium/sierraVentana_1.webp",
       "/activities/sierraVentana/medium/sierraVentana_2.webp",
       "/activities/sierraVentana/medium/sierraVentana_3.webp",
@@ -140,7 +39,7 @@
         "value": "Villa Arcadia",
         "lat": -38.13402951173797,
         "lng": -61.78359283640445,
-        "description": "Agregar palabras claves de actividades en YMPCAPOLIS"
+        "description": "Alojamiento en YMCAPOLIS, trekking y actividades de integración."
       },
       {
         "label": "Tag",
@@ -175,32 +74,7 @@
     ],
     "seo": {
       "title": "Viaje Educativo en Sierra de la Ventana | Turismo y Aventura",
-      "description": "Programa educativo en Sierra de la Ventana: trekking, actividades al aire libre y talleres para colegios e instituciones en un entorno natural único.",
-      "canonical": "https://www.somital.com.ar/actividad-en-sierra-de-la-ventana",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "TouristTrip",
-        "name": "Viaje Educativo en Sierra de la Ventana",
-        "description": "Programa educativo en Sierra de la Ventana: trekking, actividades al aire libre y talleres para colegios e instituciones en un entorno natural único.",
-        "url": "https://www.somital.com.ar/actividad-en-sierra-de-la-ventana",
-        "image": "https://www.somital.com.ar/images/sierra-ventana.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Sierra de la Ventana, Buenos Aires, Argentina"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
+      "description": "Programa educativo en Sierra de la Ventana: trekking, actividades al aire libre y talleres para colegios e instituciones en un entorno natural único."
     }
   },
   {
@@ -275,33 +149,7 @@
     ],
     "seo": {
       "title": "Actividades Educativas en la Playa | Programas para Colegios",
-      "description": "Descubrí la experiencia educativa en la playa: trekking, orientación, sandboard y juegos pedagógicos. Ideal para colegios e instituciones en Mar del Plata.",
-      "canonical": "https://www.somital.com.ar/actividad-en-la-playa",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "EducationalOccupationalProgram",
-        "name": "Actividades Educativas en la Playa",
-        "description": "Experiencia educativa en la playa: trekking, orientación, sandboard y juegos pedagógicos. Ideal para colegios e instituciones en Mar del Plata.",
-        "url": "https://www.somital.com.ar/actividad-en-la-playa",
-        "image": "https://www.somital.com.ar/images/playa.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Mar del Plata, Buenos Aires, Argentina"
-        },
-        "educationalCredentialAwarded": "Experiencia educativa en contacto con la naturaleza",
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
+      "description": "Descubrí la experiencia educativa en la playa: trekking, orientación, sandboard y juegos pedagógicos. Ideal para colegios e instituciones en Mar del Plata."
     }
   },
   {
@@ -377,32 +225,7 @@
     ],
     "seo": {
       "title": "Kayak y Actividades Educativas en la Laguna de Mar Chiquita",
-      "description": "Jornada educativa en la laguna: kayak, stand up paddle, trekking y avistaje de aves. Una propuesta ideal para colegios e instituciones cerca de Mar del Plata.",
-      "canonical": "https://www.somital.com.ar/actividad-en-la-laguna-mar-chiquita",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "TouristAttraction",
-        "name": "Kayak y Actividades Educativas en Laguna de Mar Chiquita",
-        "description": "Jornada educativa en la laguna: kayak, stand up paddle, trekking y avistaje de aves. Propuesta para colegios e instituciones cerca de Mar del Plata.",
-        "url": "https://www.somital.com.ar/actividad-en-la-laguna-mar-chiquita",
-        "image": "https://www.somital.com.ar/images/laguna-mar-chiquita.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Mar Chiquita, Buenos Aires, Argentina"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
+      "description": "Jornada educativa en la laguna: kayak, stand up paddle, trekking y avistaje de aves. Una propuesta ideal para colegios e instituciones cerca de Mar del Plata."
     }
   },
   {
@@ -422,14 +245,14 @@
     ],
     "imageThumbnail": "/activities/expSierras/small/expSierras_1.webp",
     "name": "Actividad en las Sierras",
-    "slug": "/actividad-en-las-sierras-en-rincon-grande",
+    "slug": "/actividad-en-las-sierras",
     "price": "$ A cotizar - Consultanos!",
     "chips": [
       "Colegios",
       "Viaje Educativo",
       "Trekking",
       "Mountain Bike",
-      "Rincón Grande"
+      "Sierras de Mar del Plata"
     ],
     "details": [
       {
@@ -440,10 +263,10 @@
       {
         "label": "Location",
         "icon": "location",
-        "value": "Rincón Grande",
-        "lat": -37.88220165423163,
-        "lng": -57.868810008932755,
-        "description": "Trekking, MTB (Mountaing Bike), caminatas (Senderismo)."
+        "value": "Sierras de Mar del Plata",
+        "lat": -37.9467,
+        "lng": -57.7781,
+        "description": "Trekking, MTB (mountain bike) y senderismo educativo en las sierras."
       },
       {
         "label": "Tag",
@@ -458,9 +281,9 @@
     ],
     "description": [
       {
-        "title": "Explorar las sierras de Rincón Grande",
+        "title": "Explorar las sierras de Mar del Plata",
         "paragraphs": [
-          "La experiencia sierras propone un recorrido educativo y recreativo por Rincón Grande, un entorno natural ideal para trekking, MTB y senderismo.",
+          "La experiencia sierras propone un recorrido educativo y recreativo por las sierras de Mar del Plata, un entorno natural ideal para trekking, MTB y senderismo.",
           "Cada actividad está pensada para que los estudiantes desarrollen habilidades personales mientras disfrutan del aire libre."
         ]
       },
@@ -480,34 +303,8 @@
       }
     ],
     "seo": {
-      "title": "Actividades Educativas en las Sierras | Trekking y MTB en Rincón Grande",
-      "description": "Explorá las sierras de Rincón Grande con trekking, mountain bike y dinámicas educativas. Actividad diseñada para colegios y grupos en plena naturaleza.",
-      "canonical": "https://www.somital.com.ar/actividad-en-las-sierras-en-rincon-grande",
-      "schemaJsonLd": {
-        "@context": "https://schema.org",
-        "@type": "EducationalOccupationalProgram",
-        "name": "Actividades Educativas en las Sierras de Rincón Grande",
-        "description": "Explorá las sierras de Rincón Grande con trekking, mountain bike y dinámicas educativas. Actividad diseñada para colegios y grupos.",
-        "url": "https://www.somital.com.ar/actividad-en-las-sierras-en-rincon-grande",
-        "image": "https://www.somital.com.ar/images/rincon-grande-educativo.jpg",
-        "provider": {
-          "@type": "Organization",
-          "name": "Somital",
-          "url": "https://www.somital.com.ar",
-          "logo": "https://www.somital.com.ar/logo.png"
-        },
-        "areaServed": {
-          "@type": "Place",
-          "name": "Mar del Plata, Buenos Aires, Argentina"
-        },
-        "educationalCredentialAwarded": "Programa educativo en la naturaleza",
-        "offers": {
-          "@type": "Offer",
-          "price": "Consultar",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
+      "title": "Salida Educativa a las Sierras para Colegios | Trekking y MTB en Mar del Plata",
+      "description": "Salida educativa a las sierras de Mar del Plata para colegios: trekking, mountain bike y dinámicas de grupo en plena naturaleza, con guías y coordinadores."
     }
   }
 ]
