@@ -17,7 +17,7 @@ const ReviewsSection = () => {
   return (
     <section id="opiniones" className="bg-surface py-20 md:py-28">
       <div className="container-site">
-        <SectionHeading eyebrow="Opiniones en Google" title="Qué dicen nuestros clientes">
+        <SectionHeading eyebrow={`${site.googleRating} ★ en Google · ${site.googleReviewCount} reseñas`} title="Qué dicen nuestros clientes">
           Personas, familias y colegios que ya salieron con nosotros a la naturaleza.
         </SectionHeading>
 
