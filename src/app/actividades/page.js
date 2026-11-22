@@ -11,7 +11,7 @@ import { itemListSchema, pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: "Actividades de Turismo Aventura en Mar del Plata | Somital",
   description:
-    "Explorá todas nuestras actividades en la naturaleza: trekking en las sierras, senderismo, mountain bike, parapente, kayak y salidas educativas en Mar del Plata y alrededores.",
+    "Explorá todas nuestras actividades en la naturaleza: trekking en las sierras, senderismo, mountain bike, kayak y salidas educativas en Mar del Plata y alrededores.",
   path: "/actividades",
 });
 

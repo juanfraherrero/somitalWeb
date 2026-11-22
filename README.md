@@ -1,6 +1,6 @@
 # Somital Aventuras
 
-Production website for an adventure tourism company in Mar del Plata, Argentina: guided trekking, paragliding, school field trips and corporate team building.
+Production website for an adventure tourism company in Mar del Plata, Argentina: guided trekking, school field trips and corporate team building.
 
 **Live:** https://www.somital.com.ar
 

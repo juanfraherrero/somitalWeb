@@ -14,5 +14,11 @@
   "city": "Mar del Plata",
   "region": "Buenos Aires",
   "country": "AR",
-  "geo": { "lat": -38.0054771, "lng": -57.5426106 }
+  "geo": {
+    "lat": -38.0054771,
+    "lng": -57.5426106
+  },
+  "googleMapsUrl": "https://www.google.com/maps?cid=5191102197844701331",
+  "googleRating": "4,8",
+  "googleReviewCount": 23
 }

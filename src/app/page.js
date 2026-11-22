@@ -1,6 +1,7 @@
 import HeroSection from "@/sections/Hero.section";
 import AudiencesSection from "@/sections/Audiences.section";
 import AboutSection from "@/sections/About.section";
+import ReviewsSection from "@/sections/Reviews.section";
 import ActivitiesSection from "@/sections/Activities.section";
 import CommunitySection from "@/sections/Community.section";
 import LocationSection from "@/sections/Location.section";
@@ -24,6 +25,8 @@ export default function Home() {
       <ActivitiesSection />
 
       <CommunitySection label="home" />
+
+      <ReviewsSection />
 
       <AboutSection />
 

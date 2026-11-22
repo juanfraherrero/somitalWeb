@@ -48,6 +48,12 @@ const nextConfig = {
 				destination: "/actividades/colegios/actividad-en-las-sierras",
 				permanent: true, // 308 redirect
 			},
+			// Parapente se dejó de ofrecer
+			{
+				source: "/actividades/vuelo-en-parapente",
+				destination: "/actividades",
+				permanent: true, // 308 redirect
+			},
 			{
 				source: "/actividad-en-las-sierras-en-rincon-grande",
 				destination: "/actividades/colegios/actividad-en-las-sierras",

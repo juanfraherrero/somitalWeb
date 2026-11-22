@@ -37,7 +37,7 @@ export const organizationSchema = () => ({
     "Sierra de la Ventana",
     "Partido de General Pueyrredon",
   ],
-  sameAs: [site.instagram, site.facebook],
+  sameAs: [site.instagram, site.facebook, site.googleMapsUrl],
 });
 
 export const activitySchema = (activity, isColegio) => ({
