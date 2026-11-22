@@ -28,7 +28,6 @@ export const metadata = {
     "actividades para empresas Mar del Plata",
     "turismo aventura Mar del Plata",
     "mountain bike Mar del Plata",
-    "parapente Mar del Plata",
   ],
   authors: [{ name: "Somital" }],
   icons: { icon: "/favicon.ico" },
