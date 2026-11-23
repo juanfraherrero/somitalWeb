@@ -29,7 +29,7 @@ const HeroActivitySection = ({ activity, isColegio }) => {
           <span key={chip} className="rounded-full bg-white/15 px-3 py-1 text-sm font-bold backdrop-blur">{chip}</span>
         ))}
       </div>
-      <WhatsAppLink href={whatsappLink(message)} label={`hero${activity.slug}`} className="btn-whatsapp mt-8">
+      <WhatsAppLink href={whatsappLink(message)} event={isColegio ? 'colegio_lead' : 'whatsapp_click'} label={`hero${activity.slug}`} className="btn-whatsapp mt-8">
         <WhatsAppIcon />
         {isColegio ? 'Pedir propuesta para mi curso' : 'Consultar por WhatsApp'}
       </WhatsAppLink>
