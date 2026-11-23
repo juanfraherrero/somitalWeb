@@ -8,6 +8,15 @@ import activities_colegios from "@/data/activities-colegios.json";
 import { activityPath } from "@/lib/seo";
 
 import FormFooter from "../components/FormFooter";
+import WhatsAppLink from "@/components/WhatsAppLink";
+import { whatsappLink } from "@/lib/whatsapp";
+
+// Evento de GTM por cada fila de contacto del footer (ver infoFooter.json)
+const contactEvents = {
+  whatsapp: { event: "whatsapp_click", label: "footer" },
+  mail: { event: "contact_click", label: "email_footer" },
+  telefono: { event: "contact_click", label: "telefono_footer" },
+};
 
 const exploreLinks = [
   { href: "/trekking-mar-del-plata", label: "Trekking en Mar del Plata" },
@@ -35,18 +44,40 @@ const FooterSection = () => {
             <div key={column.column} className="mt-6">
               <h3 className="font-display text-lg font-bold text-white">{column.column}</h3>
               <ul className="mt-3 space-y-2">
-                {column.rows.map((row) => (
-                  <li key={row.type}>
-                    <Link
-                      href={row.link || ""}
-                      target={row.target || "_self"}
-                      className="flex items-center gap-3 text-sm hover:text-white"
-                    >
+                {column.rows.map((row) => {
+                  const content = (
+                    <>
                       <Image src={row.icon} alt="" width={20} height={20} className="invert" />
                       {column.column == "Redes" ? row.type : row.value}
-                    </Link>
-                  </li>
-                ))}
+                    </>
+                  );
+                  const contact = contactEvents[row.type];
+
+                  return (
+                    <li key={row.type}>
+                      {contact ? (
+                        // Los canales de contacto dejan un evento en GTM para medir consultas
+                        <WhatsAppLink
+                          href={row.type === "whatsapp" ? whatsappLink() : row.link}
+                          event={contact.event}
+                          label={contact.label}
+                          target={row.target || "_self"}
+                          className="flex items-center gap-3 text-sm hover:text-white"
+                        >
+                          {content}
+                        </WhatsAppLink>
+                      ) : (
+                        <Link
+                          href={row.link || ""}
+                          target={row.target || "_self"}
+                          className="flex items-center gap-3 text-sm hover:text-white"
+                        >
+                          {content}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

@@ -53,6 +53,7 @@ const ActivityInformationSection = ({ activity, isColegio }) => {
           </div>
           <WhatsAppLink
             href={whatsappLink(`¡Hola Somital! Quiero consultar por "${activity.name}".`)}
+            event={isColegio ? 'colegio_lead' : 'whatsapp_click'}
             label={`detalle${activity.slug}`}
             className="btn-whatsapp mt-8 w-full"
           >
