@@ -6,7 +6,7 @@ const places = [
   {
     icon: '🏔️',
     name: 'Sierras de Mar del Plata y Sierra de los Padres',
-    text: 'A minutos de la ciudad: el lugar ideal para trekking, senderismo, mountain bike y escalada.',
+    text: 'A minutos de la ciudad: el lugar ideal para trekking, senderismo y mountain bike.',
   },
   {
     icon: '🌊',

@@ -23,7 +23,7 @@ export const metadata = pageMetadata({
 const zones = [
   {
     title: 'Sierras de Mar del Plata',
-    text: 'La zona de Sierra de los Padres y La Peregrina, a pocos minutos de la ciudad, es el clásico para trekking: senderos entre roca, pastizal serrano y vistas panorámicas. También es ideal para mountain bike y escalada.',
+    text: 'La zona de Sierra de los Padres y La Peregrina, a pocos minutos de la ciudad, es el clásico para trekking: senderos entre roca, pastizal serrano y vistas panorámicas. También es ideal para mountain bike.',
     image: '/activities/trekkingSierras/medium/trekkingSierras_3.webp',
     alt: 'Cerro de las sierras de Mar del Plata ideal para trekking',
     href: '/actividades/trekking-en-sierras-de-mar-del-plata',

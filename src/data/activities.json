@@ -13,8 +13,7 @@
       "Trekking",
       "Senderismo",
       "Turismo Aventura",
-      "MTB",
-      "Escalada"
+      "MTB"
     ],
     "details": [
       {
@@ -31,7 +30,7 @@
         "value": "Sierras de Mar del Plata",
         "lat": -37.9467,
         "lng": -57.7781,
-        "description": "Trekking, senderismo, MTB (mountain bike) y escalada en las sierras."
+        "description": "Trekking, senderismo y MTB (mountain bike) en las sierras."
       },
       {
         "label": "Tag",
@@ -58,9 +57,9 @@
         ]
       },
       {
-        "title": "Mountain Bike y escalada",
+        "title": "Mountain Bike",
         "paragraphs": [
-          "Si preferís la adrenalina, sumamos circuitos de MTB (mountain bike) y escalada en roca. Desde propuestas para principiantes hasta desafíos para quienes ya tienen experiencia: un plan ideal para deportes de aventura en Mar del Plata."
+          "Si preferís la adrenalina, sumamos circuitos de MTB (mountain bike). Desde propuestas para principiantes hasta desafíos para quienes ya tienen experiencia: un plan ideal para deportes de aventura en Mar del Plata."
         ]
       },
       {
@@ -71,8 +70,8 @@
       }
     ],
     "seo": {
-      "title": "Trekking en las Sierras de Mar del Plata | Senderismo, MTB y Escalada",
-      "description": "Trekking y senderismo guiado en las sierras de Mar del Plata: caminatas para todos los niveles, mountain bike y escalada a minutos de la ciudad. Grupos, familias y colegios."
+      "title": "Trekking en las Sierras de Mar del Plata | Senderismo y MTB",
+      "description": "Trekking y senderismo guiado en las sierras de Mar del Plata: caminatas para todos los niveles y mountain bike a minutos de la ciudad. Grupos, familias y colegios."
     }
   }
 ]

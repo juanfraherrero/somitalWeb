@@ -22,15 +22,16 @@ const nextConfig = {
 				destination: "/actividades/colegios/actividad-en-la-playa",
 				permanent: true, // 308 redirect
 			},
-			// URLs viejas que ya están indexadas: se redirigen a las nuevas para no perder posicionamiento
+			// URLs viejas que ya están indexadas: se redirigen a las nuevas para no perder posicionamiento.
+			// Rincón Grande rankea para "trekking mar del plata", así que apunta a la landing de esa búsqueda
 			{
 				source: "/actividades/actividad-rincon-grande",
-				destination: "/actividades/trekking-en-sierras-de-mar-del-plata",
+				destination: "/trekking-mar-del-plata",
 				permanent: true, // 308 redirect
 			},
 			{
 				source: "/actividad-rincon-grande",
-				destination: "/actividades/trekking-en-sierras-de-mar-del-plata",
+				destination: "/trekking-mar-del-plata",
 				permanent: true, // 308 redirect
 			},
 			{
